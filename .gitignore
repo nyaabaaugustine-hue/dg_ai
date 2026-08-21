@@ -23,6 +23,8 @@
 # misc
 .DS_Store
 *.pem
+*.log
+chat-test.png
 
 # debug
 npm-debug.log*
