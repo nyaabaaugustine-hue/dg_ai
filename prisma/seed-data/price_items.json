@@ -1,0 +1,7599 @@
+[
+ {
+  "name": "Forta Tyre With Tube",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 200.0,
+  "qty": 40,
+  "category": "Tyres",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Endurance Tyre Without Tube BJJ",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 195.0,
+  "qty": 30,
+  "category": "Tyres",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Brake Pot Back Bjj",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 28.0,
+  "qty": 72,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "ENGINE VALVE WITH SEAL - BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "BACK DOOR NUT",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 2.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "BEVEL GEAR BIG WITH BOLT",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 20.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "FLANGE SMALL",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 24.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "FLANGE MEDIUM",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 27.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "FLANGE LONG",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 27.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Axle Front",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 30.0,
+  "qty": 60,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Axle Back",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 45.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "PIVOT PIN N/M - 1ST",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "PIVOT PIN N/M - 2ND",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "PIVOT PIN N/M - 3RD",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "PIVOT PIN N/M - 4TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "PIVOT PIN N/M - 5TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "PIVOT KIT N/M - 7TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "PIVOT PIN N/M - 8TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "PIVOT PIN N/M - 9TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "PIVOT PIN N/M - 10TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "REVERSE GEAR BS6",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 50.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "FRONT HUB BS6",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 140.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "FRONT HUB BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 140.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "LED HEAD LIGHT - LH COMP BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 45.0,
+  "qty": 18,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "LED HEAD LIGHT - RH COMP-BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 45.0,
+  "qty": 18,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "AUTO ADJUSTER LH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 13.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "AUTO ADJUSTER RH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 13.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Neck Bearing 2013 Complet",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 34.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Spark Plug",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 11.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Back Bumper Yellow",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 70.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Back Bumper Black",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 70.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "ISOLATOR RUBBER REAR BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 14.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "ISOLATOR RUBBER BS6",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 23.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "SEAL HEAD COVER",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "MUD FLAP",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Fan",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Hood Masroom New Model",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 190.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "TOP & DOWN GASKET SET OF 2 COMP",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 5.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Gasket Full BS6",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 12.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "SILENCER BOLT",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 7.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Hand Brake Lever BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 130.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Basket Bearing (Needle Bearing)",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "INDICATOR ASSY LH RE COMP",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 25.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "INDICATOR ASSY RH RE COMP",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 25.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Lock Set Complete BJJ",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 80.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Disk",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 20.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Rotor Gear Only",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 48.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Head Light Bulb",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Propuller Shaft",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 30.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Cable",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 25.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Reverse Cable",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 25.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Gear Cable Black",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 22.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Gear Cable White",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 22.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Sleeve Sapark Plug",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 12.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Hot Air Reflector",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 22.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Bottle Stand Mix Color",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 8.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Master Cylinder Bottle Only",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 12.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Center Cluth",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 125.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Cowling Intake",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 21.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Mudgaurd Rubber",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 12.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Oil Filter",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 9.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Bellow Rubber TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.0,
+  "qty": 180,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Oil Seal Kit",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Back Absorber Spring",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 58.0,
+  "qty": 9,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Fan Base",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Wheel Cover",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 40.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Rotor Complete Flash",
+  "brand": "Flash",
+  "grade": "GENERIC",
+  "price": 180.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Axle Front",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 45.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Axle Back",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 65.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Valve Seal",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 5.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Rotor Assy",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 170.0,
+  "qty": 16,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Fuse Box Assy",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 40.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Ignition key Switch",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 52.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Carbon Brush Kit Only",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 15.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Carbon Brush Complete",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 24.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Horn 74 mm",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 22.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Mud Flap",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 7.5,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Front Side Indicator LH",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 40.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Head Lamp Complte RH",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 52.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Head Lamp Complte LH",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 52.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Slider Block",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 7.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Starter Moto Complete",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 400.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Charger-Rectifier",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 145.0,
+  "qty": 9,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Head Lamp Glass",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 14.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Flange Small",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 40.0,
+  "qty": 24,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Flange Medium",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 45.0,
+  "qty": 24,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Flange Long",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 45.0,
+  "qty": 24,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Armature",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 125.0,
+  "qty": 25,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Bendix - Starter Pinion",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 145.0,
+  "qty": 25,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Starter Top Bendix Cover BJJ",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 42.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Starter Down Cover with Brush BJJ",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 42.0,
+  "qty": null,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Cross Gear",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 10.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Sector With Lever",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 35.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Propuller Shaft",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 35.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Engine Block",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 385.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Axle Bearing Kit Front",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 35.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Axle Bearing Kit Back",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 30.0,
+  "qty": null,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Bellow Rubber Small",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 6.0,
+  "qty": 80,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Bellow Rubber Big",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 7.5,
+  "qty": null,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Head Lamp Reley",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 14.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Down Coil",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 150.0,
+  "qty": 13,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Oil Filter Mesh Stainer BJJ",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 7.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Rotor Gear Only",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 62.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Engine Valve With Seal",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 62.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Plug Cap Small",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 8.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Plug Cap Long",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 8.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Master Cylinder Complete",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 145.0,
+  "qty": 6,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Master Cylinder Minor Kit",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 17.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Complete Assy",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 360.0,
+  "qty": 4,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Housing",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 175.0,
+  "qty": 4,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Center Clutch",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 175.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Disk",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 50.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Brake Shoe Kit",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 34.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Brake Port RE",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 50.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Master Cylinder Major Kit",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 35.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Wheel Clutch",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 26.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Hub Clutch",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 50.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Rocker Arm",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 50.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Back Absorber",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 95.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Front Absorber",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 95.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Master Cylinder Bottle Only",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 20.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Cap Oil Filling",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 3.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Oil Pump",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 38.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Engine Block Complete BS4",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 470.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Engine Block Complete BS6",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 470.0,
+  "qty": 4,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Stick Dip Clutch Cover",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 4.5,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Neutral Switch",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 14.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Disk",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 70.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Sprocket Crankshaft",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 15.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Back Absorber",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 115.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Seal Head Cover",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 12.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Complete Assy",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 360.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Sprocket Camshaft",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 8.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Cam Chain 100 Links",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 38.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Steering Column Bjj",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 650.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Brake Shoe",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 43.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Rotor Comlete",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 230.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Cylinder Head Only New Model",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 570.0,
+  "qty": 4,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Crank Shaft New",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 550.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Crank Shaft Old",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 550.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "CDI",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 250.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Spark Plug",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 18.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Starter Reley New Type",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 75.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Center Clutch",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 240.0,
+  "qty": 9,
+  "category": "Bajaj Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Windscreen TVS Double Layer Orignal",
+  "brand": "LUMINAZ",
+  "grade": "GENERIC",
+  "price": 410.0,
+  "qty": 25,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Rubber Mat TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 95.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Brake Pot Back TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 30.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Disk Set Of 5 TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 20.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Neck Bearing Complet TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 38.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "FLANGE BIG TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 27.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Gasket Full TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Axle Back TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 45.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Axle Front TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 47.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Basket Bearing (Needle Bearing) TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "WIPER BLADE TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 24.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Gear Cable White TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 22.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Gear Cable Black TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 22.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Cable TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 25.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Bellow Rubber Small TVS",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 8.0,
+  "qty": 20,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Armature TVS",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 130.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Bendix - Starter Pinion TVS",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 165.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Axle Front TVS",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 65.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Oil Filter TVS",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 5.0,
+  "qty": 20,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Absorber Front TVS",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 147.0,
+  "qty": 6,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Absorber Back TVS",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 157.0,
+  "qty": 6,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Master Cylinder Major Kit TVS",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 50.0,
+  "qty": 30,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Clutch Cable Complet TVS",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 35.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Gear Cable Assy White Colour TVS",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 35.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Gas Cable TVS",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 38.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Brake Port TVS",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 62.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "TVS Engine Complete",
+  "brand": "TVS ORIGINAL",
+  "grade": "PINK",
+  "price": 7700.0,
+  "qty": 1,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Engine Block Complete TVS",
+  "brand": "TVS ORIGINAL",
+  "grade": "PINK",
+  "price": 450.0,
+  "qty": 4,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Crankshaft Complete NP.049 TVS",
+  "brand": "TVS ORIGINAL",
+  "grade": "PINK",
+  "price": 490.0,
+  "qty": 4,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Center Clutch TVS",
+  "brand": "TVS ORIGINAL",
+  "grade": "PINK",
+  "price": 240.0,
+  "qty": 5,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Carburettor TVS",
+  "brand": "TVS ORIGINAL",
+  "grade": "PINK",
+  "price": 300.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Rocker Arm TVS",
+  "brand": "TVS ORIGINAL",
+  "grade": "PINK",
+  "price": 85.0,
+  "qty": 5,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Rotor Assy TVS",
+  "brand": "TVS ORIGINAL",
+  "grade": "PINK",
+  "price": 320.0,
+  "qty": 5,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Timing Chain TVS",
+  "brand": "TVS ORIGINAL",
+  "grade": "PINK",
+  "price": 57.0,
+  "qty": 20,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Spark Plug TVS",
+  "brand": "TVS ORIGINAL",
+  "grade": "PINK",
+  "price": 21.0,
+  "qty": 10,
+  "category": "TVS Goods",
+  "source": "Ever Green Parts Kumasi"
+ },
+ {
+  "name": "Brake Pot Back Bjj",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 28.0,
+  "qty": 72,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "ENGINE VALVE WITH SEAL - BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "BACK DOOR NUT",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 2.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "BEVEL GEAR BIG WITH BOLT",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 20.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "FLANGE SMALL",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 24.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "FLANGE MEDIUM",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 27.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "FLANGE LONG",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 27.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Axle Front",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 30.0,
+  "qty": 60,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Axle Back",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 45.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "PIVOT PIN N/M - 1ST",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "PIVOT PIN N/M - 2ND",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "PIVOT PIN N/M - 3RD",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "PIVOT PIN N/M - 4TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "PIVOT PIN N/M - 5TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "PIVOT KIT N/M - 7TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "PIVOT PIN N/M - 8TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "PIVOT PIN N/M - 9TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "PIVOT PIN N/M - 10TH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "REVERSE GEAR BS6",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 50.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "FRONT HUB BS6",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 140.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "FRONT HUB BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 140.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "LED HEAD LIGHT - LH COMP BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 45.0,
+  "qty": 18,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "LED HEAD LIGHT - RH COMP-BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 45.0,
+  "qty": 18,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "AUTO ADJUSTER LH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 13.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "AUTO ADJUSTER RH",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 13.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Neck Bearing 2013 Complet",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 34.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Spark Plug",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 11.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Back Bumper Yellow",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 70.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Back Bumper Black",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 70.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "ISOLATOR RUBBER REAR BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 14.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "ISOLATOR RUBBER BS6",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 23.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "SEAL HEAD COVER",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "MUD FLAP",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Fan",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Hood Masroom New Model",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 190.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "TOP & DOWN GASKET SET OF 2 COMP",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 5.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Gasket Full BS6",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 12.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "SILENCER BOLT",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 7.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Hand Brake Lever BS4",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 130.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Basket Bearing (Needle Bearing)",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "INDICATOR ASSY LH RE COMP",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 25.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "INDICATOR ASSY RH RE COMP",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 25.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Lock Set Complete BJJ",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 80.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Clutch Disk",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 20.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Rotor Gear Only",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 48.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Head Light Bulb",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Propuller Shaft",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 30.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Clutch Cable",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 25.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Reverse Cable",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 25.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Gear Cable Black",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 22.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Gear Cable White",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 22.0,
+  "qty": 125,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Sleeve Sapark Plug",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 12.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Hot Air Reflector",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 22.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Bottle Stand Mix Color",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 8.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Master Cylinder Bottle Only",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 12.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Center Cluth",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 125.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Cowling Intake",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 21.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Mudgaurd Rubber",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 12.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Oil Filter",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 9.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Bellow Rubber TVS",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 6.0,
+  "qty": 180,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Oil Seal Kit",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 15.0,
+  "qty": 100,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Back Absorber Spring",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 58.0,
+  "qty": 9,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Fan Base",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 16.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Wheel Cover",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 40.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Rotor Complete Flash",
+  "brand": "Flash",
+  "grade": "GENERIC",
+  "price": 180.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Axle Front",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 45.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Axle Back",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 65.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Valve Seal",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 5.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Rotor Assy",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 170.0,
+  "qty": 16,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Fuse Box Assy",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 40.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Ignition key Switch",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 52.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Carbon Brush Kit Only",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 15.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Carbon Brush Complete",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 24.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Horn 74 mm",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 22.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Mud Flap",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 7.5,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Front Side Indicator LH",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 40.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Head Lamp Complte RH",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 52.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Head Lamp Complte LH",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 52.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Slider Block",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 7.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Starter Moto Complete",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 400.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Charger-Rectifier",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 145.0,
+  "qty": 9,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Head Lamp Glass",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 14.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Flange Small",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 40.0,
+  "qty": 24,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Flange Medium",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 45.0,
+  "qty": 24,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Flange Long",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 45.0,
+  "qty": 24,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Armature",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 125.0,
+  "qty": 25,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Bendix - Starter Pinion",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 145.0,
+  "qty": 25,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Starter Top Bendix Cover BJJ",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 42.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Starter Down Cover with Brush BJJ",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 42.0,
+  "qty": null,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Cross Gear",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 10.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Sector With Lever",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 35.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Propuller Shaft",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 35.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Engine Block",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 385.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Axle Bearing Kit Front",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 35.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Axle Bearing Kit Back",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 30.0,
+  "qty": null,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Bellow Rubber Small",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 6.0,
+  "qty": 80,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Bellow Rubber Big",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 7.5,
+  "qty": null,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Head Lamp Reley",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 14.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Down Coil",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 150.0,
+  "qty": 13,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Oil Filter Mesh Stainer BJJ",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 7.5,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Rotor Gear Only",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 62.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Engine Valve With Seal",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 62.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Plug Cap Small",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 8.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Plug Cap Long",
+  "brand": "Vorrac",
+  "grade": "GENERIC",
+  "price": 8.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Master Cylinder Complete",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 145.0,
+  "qty": 6,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Master Cylinder Minor Kit",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 17.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Clutch Complete Assy",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 360.0,
+  "qty": 4,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Clutch Housing",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 175.0,
+  "qty": 4,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Center Clutch",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 175.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Clutch Disk",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 50.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Brake Shoe Kit",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 34.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Brake Port RE",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 50.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Master Cylinder Major Kit",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 35.0,
+  "qty": 30,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Wheel Clutch",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 26.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Hub Clutch",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 50.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Rocker Arm",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 50.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Back Absorber",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 95.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Front Absorber",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 95.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Master Cylinder Bottle Only",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 20.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Cap Oil Filling",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 3.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Oil Pump",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 38.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Engine Block Complete BS4",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 470.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Engine Block Complete BS6",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 470.0,
+  "qty": 4,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Stick Dip Clutch Cover",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 4.5,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Neutral Switch",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 14.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Clutch Disk",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 70.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Sprocket Crankshaft",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 15.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Back Absorber",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 115.0,
+  "qty": 12,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Seal Head Cover",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 12.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Clutch Complete Assy",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 360.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Sprocket Camshaft",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 8.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Cam Chain 100 Links",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 38.0,
+  "qty": 20,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Steering Column Bjj",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 650.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Brake Shoe",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 43.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Rotor Comlete",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 230.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Cylinder Head Only New Model",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 570.0,
+  "qty": 4,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Crank Shaft New",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 550.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Crank Shaft Old",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 550.0,
+  "qty": 8,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "CDI",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 250.0,
+  "qty": 5,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Spark Plug",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 18.0,
+  "qty": 50,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Starter Reley New Type",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 75.0,
+  "qty": 10,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Center Clutch",
+  "brand": "Bajaj Original",
+  "grade": "PINK",
+  "price": 240.0,
+  "qty": 9,
+  "category": "Bajaj Goods",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Forta Tyre With Tube",
+  "brand": "Forta",
+  "grade": "FORTA",
+  "price": 200.0,
+  "qty": 40,
+  "category": "Tyres",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "Endurance Tyre Without Tube BJJ",
+  "brand": "Endurance",
+  "grade": "ENDURANCE",
+  "price": 195.0,
+  "qty": 30,
+  "category": "Tyres",
+  "source": "BAJAJ MASTER PRICE LIST"
+ },
+ {
+  "name": "TVS TYRE 4.00-8",
+  "part_number": "TVS TYRE 4.00-8",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 310.0,
+  "category": "Tyre",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MIRROR ASSY RH",
+  "part_number": "G8223270",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 108.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MIRROR ASSY LH",
+  "part_number": "G8223260",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 108.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CONTROL UNIT EXP",
+  "part_number": "G8060120",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1650.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PROTECTOR PLUG (FM)",
+  "part_number": "G7180050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 9.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT WHEEL CAP ASSY",
+  "part_number": "G5321500",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 192.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPEEDO CABLE INNER(New 1016mm)",
+  "part_number": "G5321420",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 15.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR TRAILING ARM KIT ASSY L",
+  "part_number": "G5320530",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 450.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR TRAILING ARM KIT ASSY R",
+  "part_number": "G5320520",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 450.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STEERING CONE KIT BOT",
+  "part_number": "G5320510",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 124.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STEERING CONE KIT TOP (Modified)",
+  "part_number": "G5320500",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 98.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PIVOT PIN FRONT KIT",
+  "part_number": "G5320470",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 96.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CABLE INNER CLUTCH",
+  "part_number": "G5320150",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 21.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Minor Kit (Tandom master cylinder)",
+  "part_number": "G5320020",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Major Kit (Tandem master cylinder)",
+  "part_number": "G5320010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 220.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FLOOR",
+  "part_number": "G5230590",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 21.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DASHBOARD BLACK",
+  "part_number": "G52301500D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 200.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LID DASHBOARD BLACK",
+  "part_number": "G52301400D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CANVAS SOFT TOP -BROWN",
+  "part_number": "G52225007H",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 630.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MIRROR ASSY RH REAR VIEW",
+  "part_number": "G5221980",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MIRROR ASSY LH REAR VIEW",
+  "part_number": "G5221970",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUD FLAP",
+  "part_number": "G5221660",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 25.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SOFT TOP COMP REAR",
+  "part_number": "G5220920",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 320.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SOFT TOP FRONT B PILLAR",
+  "part_number": "G5220910",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 100.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SIDE TUBE",
+  "part_number": "G5220170",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 50.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BEADING GLASS W/S",
+  "part_number": "G5220150",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 220.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GLASS W/S",
+  "part_number": "G5220140",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 780.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WINDSHIELD NEP BLUE",
+  "part_number": "G5220010M",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1200.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WINDSHIELD ASSY ECO GREEN",
+  "part_number": "G52200108L",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1180.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WINDSHIELD FRAME - GOLDEN YELLOW",
+  "part_number": "G52200105R",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1500.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WINDSHIELD ASSY - BLACK",
+  "part_number": "G52200103D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1250.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DUST SEAL 35*46*5",
+  "part_number": "G5200560",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 11.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DUST SEAL 28 X 42.70 X 8",
+  "part_number": "G5200550",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 11.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEX FLANGE U NUT M14 x1.5 x 22AF-12HT",
+  "part_number": "G5200180",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 15.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PARKING BRAKE CABLE ASSY",
+  "part_number": "G5170070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 125.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CABLE ASSY WHITE GEARSHIFT",
+  "part_number": "G5170040",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 102.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CABLE ASSY BLACK GEARSHIFT",
+  "part_number": "G5170030",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 96.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CABLE ASSY CLUTCH",
+  "part_number": "G5170020",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 78.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT STARTER RELAY ASSY",
+  "part_number": "G5160930",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 271.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BATTERY UNCHARGED 32 AH",
+  "part_number": "G5160920",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 800.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Cord set, starter relay (RED)",
+  "part_number": "G5160760",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 110.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUSE 15 AMPS",
+  "part_number": "G5160550",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 3.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ENGINE COMPARTMENT LAMP",
+  "part_number": "G5160460",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FRONT INDICATOR GLASS LH",
+  "part_number": "G5160370",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 22.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Rear combination lamp glass, LH / RH",
+  "part_number": "G5160360",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 29.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LAMP ASSY LICENSE PLATE",
+  "part_number": "G5160220",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 34.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TELL TALE LAMP CLUSTER - PETROL",
+  "part_number": "G5160210",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 74.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WIPER MOTOR ASSY",
+  "part_number": "G5160200",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 580.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPEEDOMETER ASSY",
+  "part_number": "G5160150",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 147.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR COMBINATION LAMP RH",
+  "part_number": "G5160110",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 198.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR COMBINATION LAMP LH",
+  "part_number": "G5160100",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 198.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FRONT INDICATOR LAMP ASSY RH",
+  "part_number": "G5160090",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 68.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FRONT INDICATOR LAMP ASSY LH",
+  "part_number": "G5160080",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 68.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEADLAMP ASSY RH",
+  "part_number": "G5160070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 252.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEAD LAMP ASSY LH",
+  "part_number": "G5160060",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 252.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WIPER BLADE ASSY",
+  "part_number": "G5160050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 84.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SWITCH ASSY HANDLE BAR",
+  "part_number": "G5160030",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 114.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SWITCH ASSY DASH BOARD",
+  "part_number": "G5160010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 90.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LEVER ASSY CLUTCH",
+  "part_number": "G5150570",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 31.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GRIP",
+  "part_number": "G5150540",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 20.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GASKET HUB DRIVE",
+  "part_number": "G5150430",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 3.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PULLEY THROTTLE",
+  "part_number": "G5150240",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 9.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HANDLE BAR PULLEY GEAR SHIFT",
+  "part_number": "G5150210",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 11.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HANDLE BAR DIE CAST",
+  "part_number": "G5150010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 450.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CAP ASSY FUEL TANK 5ltr",
+  "part_number": "G5140680",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 11.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KNOB M5",
+  "part_number": "G5123830",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PAD BRAKE PEDAL",
+  "part_number": "G5121730",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BUFFER WHEELSIDE PROPELLER SHAFT",
+  "part_number": "G5080320",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CLIP BELLOW SMALL END 25MM DIA",
+  "part_number": "G5080300",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRUSH BOX ASSY KIT",
+  "part_number": "G5060240",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 160.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FIXING BRACKET ASSY",
+  "part_number": "G5060220",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 252.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SUPPRESSOR CAP SHIELDED",
+  "part_number": "G5060150",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 48.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT PISTON DIA 62 - STD ++",
+  "part_number": "G4322550",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 192.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT MASTER CYLINDER MINOR",
+  "part_number": "G4322420",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 46.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STATOR ASSY",
+  "part_number": "G4322400",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 415.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUSIC SYSTEM SET",
+  "part_number": "G4322390",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 935.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Front Indicator Glass RH (CL)",
+  "part_number": "G4322360",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT PISTON DIA 62 - STD +",
+  "part_number": "G4322340",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 192.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT BUMPER G YELLOW",
+  "part_number": "G43222595R",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 420.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT STEERING PIVOT PIN 1st O/S",
+  "part_number": "G4322240",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 99.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STATOR ASSY ES",
+  "part_number": "G4322070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 600.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Kit Wheel Cylinder Minor (M)",
+  "part_number": "G4322050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 25.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT BRAKE SHOE COMP (AA)",
+  "part_number": "G4321840",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 70.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Lens Assy Rr Comb Lamp",
+  "part_number": "G4321830",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 42.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT CYLINDER & PISTON - Export",
+  "part_number": "G4321750",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 580.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT CONNECTING ROD 4",
+  "part_number": "G4321290",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 216.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT ENGINE OILSEAL-4S",
+  "part_number": "G4321270",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 66.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT MAJOR GASKET ENGINE",
+  "part_number": "G4321260",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 180.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT EXHAUST GASKET",
+  "part_number": "G4320850",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT REAR WHEEL BEARING",
+  "part_number": "G4320820",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 230.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT FRONT FORK BEARING",
+  "part_number": "G4320810",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 136.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT FRONT FORK SEAL",
+  "part_number": "G4320800",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 42.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ENGINE VALVE KIT",
+  "part_number": "G4320780",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 120.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT TIMING CHAIN REPAIR",
+  "part_number": "G4320770",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 240.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT BUFFER RUBBER",
+  "part_number": "G4320760",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 13.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT CRANKSHAFT BEARING",
+  "part_number": "G4320750",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 252.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "O-RING KIT ENGINE",
+  "part_number": "G4320730",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 14.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT MINOR GASKET",
+  "part_number": "G4320720",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 77.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SET PLATE CLUTCH",
+  "part_number": "G4320690",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 84.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Piston Kit 1st O/S 4S",
+  "part_number": "G4320670",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 264.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Piston Ring Set Std 4S",
+  "part_number": "G4320640",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 99.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Bendix Drive Assy. Ph 2.2 New (NI)",
+  "part_number": "G4320570",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 750.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Armature Coil Assy.Ph 2.2 New",
+  "part_number": "G4320560",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 600.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUSE 5Amp",
+  "part_number": "G4320430",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 3.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Piston Kit Std 4S",
+  "part_number": "G4320330",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 192.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RAIN COVER LH RH-3W",
+  "part_number": "G4301820",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 630.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FLOOR MAT KIT - 3W",
+  "part_number": "G4301791",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 414.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BUMPER TYP 1",
+  "part_number": "G4301750",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 358.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FENDER FRONT GUARD",
+  "part_number": "G4301680",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 138.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT CANVAS SIDE WINDOW RIK BLACK",
+  "part_number": "G42242003D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 850.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DASHBOARD SUB ASSY DIGITIAL",
+  "part_number": "G4222790",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 300.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FENDER FRONT PAINTED G YELLOW",
+  "part_number": "G42210905R",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 385.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LOCK SET PETROL",
+  "part_number": "G4210960",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 396.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LOCK SET",
+  "part_number": "G4210500",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 229.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LOCK SET 1",
+  "part_number": "G4210360",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 225.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "OILSEAL 18 12 4",
+  "part_number": "G4200100",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "O-RING COVER OIL STRAINER",
+  "part_number": "G4200010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ENGINE ASSY 200 ES 4 SP EXP 2 PETROL",
+  "part_number": "G4181650",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 15000.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Cowl Rh - New - N49 (HP)",
+  "part_number": "G4181250",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 72.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Cowl Lh Assy - N49 - New Air Cooling(HP)",
+  "part_number": "G4181240",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 78.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Fan - New - N49",
+  "part_number": "G4181220",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 78.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COWL COMP., TOP AIR COOLING",
+  "part_number": "G4180040",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 48.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COWL COMP BOTTOM AIR COOLING(R)",
+  "part_number": "G4180030",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 120.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPEEDO CABLE ASSY (NEW)",
+  "part_number": "G4170210",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 43.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CABLE THROTTLE ASSY W/O TPS",
+  "part_number": "G4170190",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 48.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CHOKE CABLE ASSY - 4S",
+  "part_number": "G4170010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUEL SENDER ASSY",
+  "part_number": "G4161040",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 90.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CORD SET STARTER RELAY 2",
+  "part_number": "G4161000",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 132.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WIRING HARNESS 2 RR",
+  "part_number": "G4160990",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 290.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WIRING HARNESS 2 FR",
+  "part_number": "G4160980",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 480.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUEL WARNING SWITCH 8 lits",
+  "part_number": "G4160290",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 53.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "OIL PRESSURE SWITCH",
+  "part_number": "G4160170",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 66.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUEL TANK ASSY BSIV",
+  "part_number": "G4140770",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 312.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TUBE",
+  "part_number": "G4110620",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 110.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RESERVOIR ASSY (Modified)",
+  "part_number": "G4110290",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 75.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MASTER CYL",
+  "part_number": "G4110260",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 400.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MASTER CYL SUB ASSY",
+  "part_number": "G4110190",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 380.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SHOCK ABSORBER FRONT - Export",
+  "part_number": "G4100180",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 300.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DIFFERENTIAL ASSY",
+  "part_number": "G4080880",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 880.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Bevel Gear",
+  "part_number": "G4080870",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 108.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Sattelite Gear",
+  "part_number": "G4080860",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 48.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "OILPUMP ASSY",
+  "part_number": "G4080850",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 110.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DRIVE SHAFT ASSY",
+  "part_number": "G4080680",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1080.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COUNTER SHAFT ASSY1",
+  "part_number": "G4080670",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 750.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR 1ST DRIVE (HGR)",
+  "part_number": "G4080640",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 75.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CHAIN GUIDE",
+  "part_number": "G4080550",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 9.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GAUGE OIL LEVEL NP.049",
+  "part_number": "G4080400",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FILTER COMP, ENGINE OIL",
+  "part_number": "G4080260",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 14.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CAP OIL FILTER",
+  "part_number": "G4080240",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 30.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ROLLER CHAIN 86 LINK",
+  "part_number": "G4080150",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 72.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR ASSY PRIMARY DRIVEN",
+  "part_number": "G4071050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 418.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CABLE ASSY CLUTCH (M)",
+  "part_number": "G4070730",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 77.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PLATE CLUTCH DRIVEN 4S",
+  "part_number": "G4070340",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 18.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DISC PRESSURE CLUTCH MC",
+  "part_number": "G4070320",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PLATE CLUTCH DRIVE JUDDER - TYPE B",
+  "part_number": "G4070290",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 58.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PLATE CLUTCH DRIVE - TYPE C",
+  "part_number": "G4070280",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PLATE CLUTCH DRIVE - TYPE A",
+  "part_number": "G4070270",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HUB CLUTCH MC",
+  "part_number": "G4070250",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 101.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPACER CLUTCH",
+  "part_number": "G4070240",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 18.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PIN CLUTCH RELEASE",
+  "part_number": "G4070230",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CENTER ASSY CLUTCH - 4S",
+  "part_number": "G4070010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 408.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MAGNETO ASSY ES HIGH POWER",
+  "part_number": "G4060340",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 850.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REGULATOR CUM RECTIFIER 3",
+  "part_number": "G4060290",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 192.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "IGNITION COIL WITH SUP. CAP 4S",
+  "part_number": "G4060250",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 250.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MAGNETO ASSY WITH COVER 4S",
+  "part_number": "G4060210",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 750.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STARTER MOTOR - NEW",
+  "part_number": "G4060170",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1100.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TCI UNIT PETROL",
+  "part_number": "G4060130",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 180.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUFFLER COMP",
+  "part_number": "G4050440",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1120.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUFFLER COMP 4S (EXPORT)",
+  "part_number": "G4050390",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1140.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GASKET MUFFLER 4S ALL",
+  "part_number": "G4050380",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FILTER PAPER",
+  "part_number": "G4040980",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 156.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CARBURETTOR ASSY 4S PETROL",
+  "part_number": "G4040280",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 510.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FLAME TRAP COMP",
+  "part_number": "G4040100",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 18.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FOAM COMP FILTER, AIR CLEANER",
+  "part_number": "G4040090",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CRANKCASE R",
+  "part_number": "G4030290",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 715.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER DIFFERENTIAL MC",
+  "part_number": "G4030260",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 300.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GASKET COVER CRANK CASE-R",
+  "part_number": "G4030080",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 25.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GASKET CRANK CASE",
+  "part_number": "G4030070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 29.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ARM ROCKER VALVE (ROLLER) ASSY",
+  "part_number": "G4011660",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 110.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPARK PLUG 4S With Ferrul",
+  "part_number": "G4011310",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 30.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPARK PLUG 4S Without Ferrul",
+  "part_number": "G4011180",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 28.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CAM CHAIN",
+  "part_number": "G4010140",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 96.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CAMSHAFT COMP NP.049",
+  "part_number": "G4010130",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 228.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CYLINDER HEAD ASSY NP.049",
+  "part_number": "G4010100",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1150.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GASKET CYLINDER",
+  "part_number": "G4010070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GUIDE CAMCHAIN",
+  "part_number": "G4010060",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TENSIONER CAMCHAIN",
+  "part_number": "G4010050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ASSY TOOL OIL SEALS",
+  "part_number": "G3310720",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 880.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PRIMARY DRIVEN GEAR",
+  "part_number": "G3310710",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 226.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FIXTURE ENGINE ASSEMBLY",
+  "part_number": "G3310670",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6958.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "EXTRACTER PIVOT PIN STEERING",
+  "part_number": "G3310650",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 105.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ASSY TOOL CONE BOTTOM",
+  "part_number": "G3310590",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1918.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "AT SILENT BLOCK TRAILING ARM",
+  "part_number": "G3310580",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 200.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "AT SILENT BLOCK PIVOT TUBE",
+  "part_number": "G3310560",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 383.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "AT HEAD TUBE RACES",
+  "part_number": "G3310550",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1672.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "AT NEEDLE BEARING",
+  "part_number": "G3310530",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 198.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ASSY TOOL BEARING",
+  "part_number": "G3310510",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 880.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ASSY TOOL CRANKSHAFT",
+  "part_number": "G3310500",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 600.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PULLER ASSY NEEDLE BEARING",
+  "part_number": "G3310480",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 605.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "OILSEAL 8x19x5",
+  "part_number": "G3200180",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "NUT CLUTCH M16X1.25 LH",
+  "part_number": "G3200070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 10.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TELL TALE LAMP CLUSTER LPG/CNG",
+  "part_number": "G3160610",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 66.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BUNDY TUBE ASSY FRONT",
+  "part_number": "G3110050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 22.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RING GEAR ES",
+  "part_number": "G3080359",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 132.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR 2ND DRIVE 3 WHEELER",
+  "part_number": "G3080310",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 105.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ENGINE PULLEY GEAR SHIFT",
+  "part_number": "G3080290",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CAP ENGINE SIDE FAREMETER",
+  "part_number": "G3080220",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 28.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FORK GEAR SHIFT HIGH SPEED",
+  "part_number": "G3080200",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 82.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FORK GEAR SHIFT LOW SPEED(M)",
+  "part_number": "G3080170",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 82.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER DIFFERENTIAL",
+  "part_number": "G3030090",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 216.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SLIDER BLOCK KIT",
+  "part_number": "G2320570",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 31.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BALL BEARING 30x62X16",
+  "part_number": "G2200760",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 68.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "NEEDLE BEARING (Big) 35 x 43 x 24",
+  "part_number": "G2200680",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "NEEDLE BEARING (Small) 20x26x12",
+  "part_number": "G2200570",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 33.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "O RING NEUTRAL SWITCH",
+  "part_number": "G2200550",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 4.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SHIM 20X32X1.5",
+  "part_number": "G2200530",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BALL BEARING 20x42x12",
+  "part_number": "G2200440",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 48.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "OILSEAL DIFFERENTIAL",
+  "part_number": "G2200360",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "OILSEAL DRIVE SHAFT",
+  "part_number": "G2200340",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 9.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPRING BRAKE SWITCH",
+  "part_number": "G2160340",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 4.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRAKE LIGHT SWITCH",
+  "part_number": "G2160250",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 20.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BALL RACE ASSY LOWER",
+  "part_number": "G2150110",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 19.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STEERING COLUMN",
+  "part_number": "G2150010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 825.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Minor Kit - Wheel Cylinder Kit",
+  "part_number": "G2112200",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Major Kit - Wheel Cylinder",
+  "part_number": "G2112190",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 72.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BUNDY TUBE ASSY REAR",
+  "part_number": "G2111570",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 36.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BUNDY TUBE ASSY CENTER",
+  "part_number": "G2111550",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 48.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "sPEEDO DRIVE COMP",
+  "part_number": "G2111320",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPEEDO DRIVE ASSY",
+  "part_number": "G2111290",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BACK PLATE RH",
+  "part_number": "G2111180",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 98.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PIN PARKING BRAKE",
+  "part_number": "G2110940",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 4.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PULLEY PARKING BRAKE",
+  "part_number": "G2110790",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LEVER ASSY PARKING BRAKE",
+  "part_number": "G2110750",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 45.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "AXLE FRONT",
+  "part_number": "G2110710",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 180.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BOLT FOR AXLE",
+  "part_number": "G2110570",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "AXLE REAR",
+  "part_number": "G2110530",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 180.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "AXLE COMP REAR",
+  "part_number": "G2110440",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 220.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRAKE DRUM",
+  "part_number": "G2110390",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 250.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LOCK PLATE",
+  "part_number": "G2110370",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 3.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WHEEL CYLINDER ASSY",
+  "part_number": "G2110220",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 165.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BACK PLATE L",
+  "part_number": "G2110210",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 98.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MASTER CYLINDER",
+  "part_number": "G2110020",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 550.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TRAILING ARM FRONT",
+  "part_number": "G2100210",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 300.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SHOCK ABSORBER ASSY REAR",
+  "part_number": "G2090100",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 360.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SILENT BLOCK, TRAILING ARM REAR",
+  "part_number": "G2090060",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 30.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "OIL STRAINER",
+  "part_number": "G2082390",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPRING HANDSTART",
+  "part_number": "G2082260",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 13.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPRING GEAR SHIFT CAM STOPPER",
+  "part_number": "G2082140",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 3.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BELLOW PROPELLOR SHAFT",
+  "part_number": "G2081920",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 16.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR 4TH DRIVEN",
+  "part_number": "G2081700",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 106.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR 3RD DRIVEN",
+  "part_number": "G2081690",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 124.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR 2ND DRIVEN",
+  "part_number": "G2081680",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 134.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR 4TH DRIVE 3 WHEELER",
+  "part_number": "G2081610",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 119.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR 3 RD DRIVE 3 WHEELER",
+  "part_number": "G2081600",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 81.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUFF CUP ENGINE",
+  "part_number": "G2081250",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 120.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUFF CUP FLANGE (WHEEL SIDE)",
+  "part_number": "G2080080",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 114.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BUFFER ENGINE SIDE PROPELLER SHAFT",
+  "part_number": "G2080050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SLIDER BLOCK",
+  "part_number": "G2080040",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PROPELLOR SHAFT ASSY",
+  "part_number": "G2080010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 146.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CRANKSHAFT COMP NP.049",
+  "part_number": "G1020010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 750.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PISTON ASSY DIA 62.00",
+  "part_number": "G4020110",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 78.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT ALUMINIUM CYL BLOCK & PISTON BS4",
+  "part_number": "G4324240",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 720.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT ALUMINIUM CYL BLOCK & PISTON EXPORT",
+  "part_number": "G4324260",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 744.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TRAILING ARM SUB ASSY FRONT",
+  "part_number": "G2100190",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 438.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HORN 12V DC",
+  "part_number": "G2160040",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DAMPER ENGINE MTG FRONT",
+  "part_number": "G2180260",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 10.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "UP ENGINE MTG DAMPER",
+  "part_number": "G2180270",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEX FL BOLT M10x1.25 SPL",
+  "part_number": "G2200810",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CAM GEAR SHIFT",
+  "part_number": "G3080190",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 100.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRAKE PEDAL COMP",
+  "part_number": "G3120200",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 55.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ADJUSTOR BOLT DAMPER ASSY",
+  "part_number": "G3150390",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ADJUSTOR SPRING DAMPER ASSY",
+  "part_number": "G3150400",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 4.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PULLER ASSY MAGNETO",
+  "part_number": "G3310410",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 450.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "AT LOCK NUT STEERING COLUMN",
+  "part_number": "G3310570",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 650.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HT TOOL DOG DRIVER & MUFF CUP",
+  "part_number": "G3310690",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 370.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DAMPER HANDLE BAR Modified",
+  "part_number": "G4150180",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 30.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SOFT TOP FRAME MTG TOP",
+  "part_number": "G4221150",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 16.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SOFT TOP FRAME MTG L",
+  "part_number": "G4221160",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUDFLAP PLASTIC",
+  "part_number": "G4224430",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 23.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STAY BUMPER MTG COMP",
+  "part_number": "G4300270",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 120.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Bumper Chassis Mounted G Yellow",
+  "part_number": "G43002805R",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 275.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TAPPET ADJUSTER",
+  "part_number": "G4310010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 150.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ROTOR ASSY",
+  "part_number": "G4322410",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 600.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUSIC SYSTEM ASSY KIT",
+  "part_number": "G4322580",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1000.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HAND LEVER COMP",
+  "part_number": "G5120840",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 336.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "INDICATOR GEARSHIFT",
+  "part_number": "G5150090",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRKT CROSS MEMBER B",
+  "part_number": "G5221110",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRACKET SIDE TUBE",
+  "part_number": "G5221250",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REINF COMP DASHBOARD",
+  "part_number": "G5230280",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 25.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GROMMET SILL LEVEL LH",
+  "part_number": "G5230310",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 16.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GROMMET SILL LEVEL RH",
+  "part_number": "G5230360",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 14.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TUBE OUTLET COMP .",
+  "part_number": "G4040840",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 97.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CORDSET ISG",
+  "part_number": "G4161790",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 300.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TCI UNIT COVER",
+  "part_number": "G4162470",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 34.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER STARTER MOTOR",
+  "part_number": "G4182170",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 10.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRKT REAR MUDFLAP",
+  "part_number": "G4220820",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 7.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SOFT TOP FRAME FR ASSY",
+  "part_number": "G4223380",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 420.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BEZEL LH COWL FRONT BLACK",
+  "part_number": "G51206590D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BEZEL RH COWL FRONT BLACK",
+  "part_number": "G51206690D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PLATE MUD FLAP",
+  "part_number": "G5123400",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 4.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GRILL ASSY BLACK",
+  "part_number": "G51235800D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 48.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR MUDGAURD LH",
+  "part_number": "G5230520",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 62.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR MUDGAURD RH",
+  "part_number": "G5230530",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STARTER GENERATOR EXP",
+  "part_number": "G8060110",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1680.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUEL SENDER ASSY CARGO",
+  "part_number": "G8160470",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 106.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RESILIENT MOUNTING",
+  "part_number": "G2030230",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 52.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SHIM DIFFERENTIAL HOUSING 3 WHEELER",
+  "part_number": "G2081210",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LOCK PIN SATELLITE GEAR 3 WHEELER",
+  "part_number": "G2081220",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PIN SATELLITE GEAR 3 WHEELER",
+  "part_number": "G2081230",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 18.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEX BOLT M10x80",
+  "part_number": "G2200060",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BALL BEARING 35x62x9 #16007",
+  "part_number": "G2200310",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 66.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GASKET COVER DIFFERENTIAL",
+  "part_number": "G3030150",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR SHIFT SHAFT",
+  "part_number": "G3080260",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SHAFT GEAR SHIFT",
+  "part_number": "G3080270",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 56.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PIN GEAR SHIFT",
+  "part_number": "G3080300",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 2.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Bevel Satellite Gear Kit",
+  "part_number": "G3320050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 540.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TUBE INLET",
+  "part_number": "G4040160",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 66.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPRING CLUTCH JUDDER",
+  "part_number": "G4070300",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 30.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WASHER CLUTCH JUDDER",
+  "part_number": "G4070310",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR PRIMARY DRIVE 4S - 24 TEETH",
+  "part_number": "G4080160",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 90.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "4s GEAR FINAL DRIVE",
+  "part_number": "G4080220",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 132.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRAKE ADJUSTER COMP L (AA)",
+  "part_number": "G4110030",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 90.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRAKE ADJUSTER COMP R (AA)",
+  "part_number": "G4110040",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 92.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BUMPER COMP",
+  "part_number": "G4123920",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 250.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TUBE COMP GEAR SHIFT",
+  "part_number": "G4150080",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TUBE THROTTLE GRIP",
+  "part_number": "G4150220",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 42.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR COMB LAMP LH (N)",
+  "part_number": "G4160690",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 228.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR COMB LAMP RH (N)",
+  "part_number": "G4160700",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 233.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Front Indicator Lamp LH.",
+  "part_number": "G4160710",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 84.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Front Indicator Lamp RH.",
+  "part_number": "G4160720",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 84.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUEL GAUGE UNIT",
+  "part_number": "G4161120",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 287.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PLUG TDC",
+  "part_number": "G4180310",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT, IDOL STAND BLACK",
+  "part_number": "G43000700D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 113.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FRONT ENGINE MTG DAMPER KIT",
+  "part_number": "G4301590",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 36.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT CYLINDER HEAD BOLT",
+  "part_number": "G4320840",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 48.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT COVER CRANKCASE",
+  "part_number": "G4321590",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 618.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "Front Indicator Glass LH (CL)",
+  "part_number": "G4322350",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT GEAR SHIFTING",
+  "part_number": "G4322710",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 35.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WOOD STICK MIDDLE SOFT TOP",
+  "part_number": "G5122080",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 34.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER HANDLE BAR BLACK",
+  "part_number": "G51501300D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 29.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HAZARD WARNING SWITCH",
+  "part_number": "G5160140",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 53.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PUNCHED WASHER 5.5 x 12 x 1",
+  "part_number": "G5200340",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 2.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LID COMP FUEL TANK YELLOW",
+  "part_number": "G52206505R",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 22.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HOLDER WATER BOTTLE",
+  "part_number": "G5300050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 24.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPROCKET CAMSHAFT 32T",
+  "part_number": "M1010210",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPACER ROLLER GEAR SHIFT FORK PIN",
+  "part_number": "N2081570",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SEAT ASSY PASSENGER BLACK",
+  "part_number": "G51300200D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1630.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER PASSENGER RH",
+  "part_number": "G4223150",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 45.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BACKREST ASSY PASSENGER BLACK",
+  "part_number": "G31304400D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 870.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SEAT BASE DRIVER PET DLX",
+  "part_number": "G4130040",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 680.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FLEXIBLE HOSE FRONT",
+  "part_number": "G2111720",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 130.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER PASSENGER LH",
+  "part_number": "G4223140",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 45.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "NUMBER PLATE YELLOW",
+  "part_number": "G52208905R",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 22.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STICKER PETROL",
+  "part_number": "G4221270",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STICKER COMPLETE",
+  "part_number": "G4210510",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 2.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DELUX STICKER RH",
+  "part_number": "G4220610",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 34.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPECIAL STICKER",
+  "part_number": "G4221380",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DELUX STICKER LH",
+  "part_number": "G4220580",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 34.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT OIL STRAINER",
+  "part_number": "G4320830",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 11.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "NEEDLE ROLLER BEARING",
+  "part_number": "G4200020",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 31.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BALL BEARING",
+  "part_number": "N8200750",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 41.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RETAINER BEARING",
+  "part_number": "G3080320",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 2.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SHIM 28 X 38 X 10",
+  "part_number": "G2200970",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 4.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ROTOR ASSY ES",
+  "part_number": "G4322060",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 739.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "STARTER ASSY",
+  "part_number": "G4324100",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 697.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SPECIAL BOLT M5",
+  "part_number": "G3150250",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CAP RESERVOIR",
+  "part_number": "G4110310",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 18.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SHIM S P LINE WHEELER",
+  "part_number": "G2201000",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 4.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SOFT TOP FRAME COMP RR",
+  "part_number": "G4221050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 422.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "YELLOW FRAME WITH THE STICKER",
+  "part_number": "G52226505R",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 2360.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GREEN FRAME WITH THE STICKER",
+  "part_number": "G52226508L",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 2926.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BLUE FRAME WITH THE STICKER",
+  "part_number": "G5222650M",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 2446.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BLACK FRAME WITH THE STICKER",
+  "part_number": "G52226503D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 2446.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MAGNETOR ASSY NEW TYPE",
+  "part_number": "G4060350",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 995.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RATCHET PARKING BRAKE",
+  "part_number": "G2110770",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 23.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GRIP HAND START",
+  "part_number": "G5121680",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 11.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUEL COCK ASSY",
+  "part_number": "G5140330",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 40.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HOSE FUEL COCK",
+  "part_number": "G5140060",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 13.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MOLDER MAGAZINE",
+  "part_number": "G5300040",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 14.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FENDER FRONT GREEN",
+  "part_number": "G42210908L",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 421.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FENDER FRONT BLUE",
+  "part_number": "G4221090M",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 379.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FENDER FRONT BLACK",
+  "part_number": "G42210903D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 421.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LID FUEL TANK BLACK",
+  "part_number": "G52206503D",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 18.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LID FUEL TANK GREEN",
+  "part_number": "G52206508L",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 18.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LID FUEL TANK BLUE",
+  "part_number": "G5220650M",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 30.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CRANKCASE L",
+  "part_number": "G4030010",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 892.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CRANKCASE L - 4S",
+  "part_number": "G4321570",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 895.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER CRANKCASE R",
+  "part_number": "G4030050",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 420.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CYLINDER HEAD APACHE",
+  "part_number": "N9011920",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1670.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CYLINDER HEAD BOLT",
+  "part_number": "M1200780",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 5.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CHROME MIRROR 121",
+  "part_number": "G4301635",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 94.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEAD LAMP GRILL COVER",
+  "part_number": "G4301830",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEAD LAMP GUARD LH",
+  "part_number": "G4301730",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 113.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEAD LAMP GUARD RH",
+  "part_number": "G4301740",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 113.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MOBILE HOLDER",
+  "part_number": "G3230250",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 20.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SEAT COVER ECO BLACK",
+  "part_number": "G4301710",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 331.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SEAT COVER BLACK & GRAY",
+  "part_number": "G4301720",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 360.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MOBILE POUCH",
+  "part_number": "G4301860",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 32.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER CARRIER",
+  "part_number": "G4301870",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 70.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "VEHICLE COVER SILVER",
+  "part_number": "G4301370",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 340.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "VEHICLE COVER BLACK",
+  "part_number": "G4310140",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 403.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WHEEL CAP BULLET",
+  "part_number": "G4303060",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 155.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WHEEL CAP ALLOY",
+  "part_number": "G4303070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 184.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WHEEL CAP 8 ARM",
+  "part_number": "G4303080",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 116.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WHEEL CAP 6 ARM",
+  "part_number": "G4303090",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 134.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUD FLAP STEEL PROJECTION",
+  "part_number": "G4303130",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 67.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MUD FLAP PLAIN PLATE",
+  "part_number": "G4303140",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 40.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CHROME MIRROR 151",
+  "part_number": "G4301631",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 103.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CHROME MIRROR 166",
+  "part_number": "G4301632",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 115.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CHROME MIRROR 155",
+  "part_number": "G4301634",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 103.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEADLAMP ASSY LH",
+  "part_number": "G4160960",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 252.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DASHBOARD SUB ASSY ANALAGOUE",
+  "part_number": "G4223560",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 300.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUEL FEED PUMP",
+  "part_number": "G8141000",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 800.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "VEHICLE COVER SILVER-3W",
+  "part_number": "G4301370",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 225.0,
+  "category": "Acc",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "DRIVER PARTITION-3W",
+  "part_number": "G4301702",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 30.0,
+  "category": "Acc",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SEAT COVER ECO BLACK & GREY -3W",
+  "part_number": "G4301720",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 275.0,
+  "category": "Acc",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RAIN COVER BROWN LH RH-3W",
+  "part_number": "G4301820",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 550.0,
+  "category": "Acc",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MOBILE POUCH-3W",
+  "part_number": "G4301860",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 20.0,
+  "category": "Acc",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER CARRIER-3W",
+  "part_number": "G4301870",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 40.0,
+  "category": "Acc",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "NTORQ SEAT COVER BLACK WITH BLUE",
+  "part_number": "K2300380",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 60.0,
+  "category": "Acc",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ADAPTOR PIN",
+  "part_number": "G8080480",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 18.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BACK PLATE FRONT (AA)",
+  "part_number": "G4110180",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 90.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BEZEL LH",
+  "part_number": "G4225340",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 37.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BEZEL RH",
+  "part_number": "G4225350",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 37.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CAMSHAFT COMP - DELUXE BSIV",
+  "part_number": "G4011530",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 216.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FUEL TANK ASSY 2",
+  "part_number": "G4142060",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 222.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "INDEX STAR",
+  "part_number": "G3080070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 26.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LOCK WASHER 38.5 DIA",
+  "part_number": "G5150300",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 4.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PIVOT PIN FRONT 1",
+  "part_number": "G4321870",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PIVOT PIN FRONT 2",
+  "part_number": "G4321880",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PIVOT PIN FRONT 3",
+  "part_number": "G4321890",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PIVOT PIN FRONT 4",
+  "part_number": "G4321900",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 54.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PLATE STOPPER REVERSE",
+  "part_number": "G2082370",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 10.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RIDER FOOTREST KIT",
+  "part_number": "G4110380",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 36.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WHEEL RIM 8 400 ASSY",
+  "part_number": "G4110400",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 252.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "WHEEL RIM 8 400 COLLAR",
+  "part_number": "G4110420",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 10.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RETAINER ARM REVERSE",
+  "part_number": "G2082350",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 3.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "MAGNETO ASSY EFI",
+  "part_number": "G4060910",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1168.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "BRKT CLUTCH CABLE (M)",
+  "part_number": "G4070720",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 12.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR 1st DRIVEN COMP (HGR)",
+  "part_number": "G4080660",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 205.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR COMB LAMP ASSY LH",
+  "part_number": "G4162770",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 151.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "REAR COMB LAMP ASSY RH",
+  "part_number": "G4162780",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 151.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GRILL ASSY 1",
+  "part_number": "G4225370",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 88.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SEAT COVER BLACK & GREY - 3W",
+  "part_number": "G4301660",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 469.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PINNION RETURN SPRING KIT",
+  "part_number": "G4321650",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 49.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SHAFT GEAR WEIGHT COVER ASSY",
+  "part_number": "G5321030",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 217.0,
+  "category": "Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "HEX NUT M16 8 P",
+  "part_number": "334234",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 6.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KEY PRM DRN GR",
+  "part_number": "3044070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 4.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT CYLINDER & PISTON (Export)",
+  "part_number": "G4321750",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 575.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "ADJUSTER ASSY TENSIONER",
+  "part_number": "M1010180",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 240.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CRANKSHAFT COMP",
+  "part_number": "N5020390",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 910.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CARBURETTOR ASSY PHOENIX",
+  "part_number": "N5040810",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 640.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CENTER CLUTCH ASSY",
+  "part_number": "N5070460",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 255.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SHAFT DRIVE STAR",
+  "part_number": "N5080100",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 154.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "LOCK SET ES",
+  "part_number": "N5150490",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 200.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "CYL BLOCK & PISTON KIT PHOENIX/PHNX RES",
+  "part_number": "N5322130",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 670.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "SET PLATE CLUTCH DRIVE4 PHX VIC CITY",
+  "part_number": "N5322240",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 120.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "AIR CLEANER ASSY U244",
+  "part_number": "N6040210",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 230.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "GEAR PRIMARY DRIVEN ASSY1",
+  "part_number": "N6080200",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 410.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "RIDER FOOTREST SUB ASSY",
+  "part_number": "N6120400",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 190.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "FRAME, M/CYCLE EFI",
+  "part_number": "N6120700",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 1120.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT CHAIN & SPROCKET 110 DIA BRAKE",
+  "part_number": "N6320220",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 340.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "KIT CYL BLOCK & PISTON 5700",
+  "part_number": "N6320420",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 760.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "COVER HEADLAMP",
+  "part_number": "N8320820",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 45.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TURN SIGNAL LAMP ASSY FR LH APA 160 180",
+  "part_number": "N9161360",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 86.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TURN SIGNAL LAMP FRONT RH APA 160 180",
+  "part_number": "N9161370",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 86.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TURN SIGNAL LAMP ASSY RR LH -APA 160/180",
+  "part_number": "N9161380",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 86.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "TURN SIGNAL LAMP ASSY RR RH-APA 160/180",
+  "part_number": "N9161390",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 86.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ },
+ {
+  "name": "PISTON ASSY Dia 57",
+  "part_number": "R3020070",
+  "brand": "TVS",
+  "grade": "PINK",
+  "price": 190.0,
+  "category": "TVS 3-Wheeler Parts",
+  "source": "TVS MASTER PRICE LIST",
+  "vehicle": "TVS 3-Wheeler"
+ }
+]

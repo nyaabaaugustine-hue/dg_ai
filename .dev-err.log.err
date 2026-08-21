@@ -1,0 +1,80 @@
+⚠ Warning: Next.js ignored package-lock.json in C:\Users\TGNE because it would include your home directory (C:\Users\TGNE).
+ To use this directory, set `turbopack.root` in your Next.js config.
+
+⚠ Slow filesystem detected. The benchmark took 614ms. If \\?\C:\Users\TGNE\Desktop\pragya_ai\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <InnerScrollHandlerNew focusAndScrollRef={{scrollRef:null, ...}} cacheNode={{rsc:{...}, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <Home>
+                        <main className="mx-auto ma...">
+                          <div>
+                          <Chat>
+                            <Card className="relative f...">
+                              <div
+                                data-slot="card"
+                                data-size="default"
++                               className={"group/card gap-(--card-spacing) py-(--card-spacing) text-sm text-card-for..."}
+-                               className={"group/card gap-(--card-spacing) overflow-hidden rounded-xl py-(--card-spa..."}
+                              >
+                                <CardHeader className="border-b b...">
+                                  <div
+                                    data-slot="card-header"
++                                   className="group/card-header @container/card-header grid auto-rows-min items-start..."
+-                                   className="group/card-header @container/card-header grid auto-rows-min items-start..."
+                                  >
+                                    <CardTitle className="flex items...">
+                                      <div data-slot="card-title" className="text-base ...">
++                                       <span
++                                         className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary te..."
++                                       >
+-                                       <svg
+-                                         xmlns="http://www.w3.org/2000/svg"
+-                                         width="24"
+-                                         height="24"
+-                                         viewBox="0 0 24 24"
+-                                         fill="none"
+-                                         stroke="currentColor"
+-                                         stroke-width="2"
+-                                         stroke-linecap="round"
+-                                         stroke-linejoin="round"
+-                                         className="lucide lucide-bot h-5 w-5"
+-                                         aria-hidden="true"
+-                                       >
+                                        ...
+                                ...
+                    ...
+                  ...
+      ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at span (<anonymous>)
+    at Chat (src/components/chat.tsx:46:11)
+    at Home (src\app\page.tsx:16:7)
+  44 |       <CardHeader className="border-b bg-gradient-to-r from-black/[0.04] via-transparent to-black/[0.04]">
+  45 |         <CardTitle className="flex items-center gap-2">
+> 46 |           <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary text-primary-foreground shadow-sm">
+     |           ^
+  47 |             <Bot className="h-4 w-4" />
+  48 |           </span>
+  49 |           Pragya AI — Spare Parts Assistant

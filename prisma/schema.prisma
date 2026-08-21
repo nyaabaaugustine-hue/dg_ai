@@ -1,0 +1,443 @@
+// Pragya AI — Ghanaian spare-parts intelligence & sales engineer
+// Authoritative knowledge lives in PostgreSQL. The LLM only reads via tools.
+// Embedding columns (vector) are for Phase 2 RAG; pgvector must be enabled.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum CompatibilityStatus {
+  COMPATIBLE
+  INCOMPATIBLE
+  CONDITIONAL
+  UNKNOWN
+}
+
+enum RelationshipType {
+  REQUIRED
+  COMPLEMENTARY
+  COMMONLY_REPLACED_WITH
+  INSPECT
+  PREVENTIVE
+  ALTERNATIVE
+  UPGRADE
+  ACCESSORY
+  RELATED
+  INCOMPATIBLE
+}
+
+enum FeedbackType {
+  RECOMMENDATION_ACCEPTED
+  RECOMMENDATION_REJECTED
+  WRONG_PART
+  MISUNDERSTOOD_LOCAL_NAME
+  PRICE_CORRECTED
+  COMPATIBILITY_CORRECTED
+  OTHER
+}
+
+enum DocumentType {
+  MANUAL
+  CATALOGUE
+  MANUFACTURER_DOCUMENTATION
+  TECHNICAL_DOCUMENT
+  PRICE_LIST
+  OTHER
+}
+
+enum KnowledgeType {
+  FUNCTION
+  SYMPTOMS
+  FAILURE_MODES
+  DIAGNOSTIC_CLUES
+  INSTALLATION_NOTES
+  MAINTENANCE
+  ENGINEERING_EXPLANATION
+  WARNING
+  GENERAL
+}
+
+enum ConversationRole {
+  USER
+  ASSISTANT
+  TOOL
+  SYSTEM
+}
+
+enum QuotationStatus {
+  DRAFT
+  SENT
+  CONFIRMED
+  CANCELLED
+  CONVERTED
+}
+
+// ---------------------------------------------------------------------------
+// Manufacturers
+// ---------------------------------------------------------------------------
+
+model Manufacturer {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  website   String?
+  country   String?
+  notes     String?
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  parts    Part[]
+
+  @@map("manufacturers")
+}
+
+// ---------------------------------------------------------------------------
+// Vehicles
+// ---------------------------------------------------------------------------
+
+model Vehicle {
+  id           String   @id @default(cuid())
+  manufacturer String
+  model        String
+  generation   String?
+  engine       String?
+  yearFrom     Int?     @map("year_from")
+  yearTo       Int?     @map("year_to")
+  notes        String?
+  active       Boolean  @default(true)
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  compatibilities PartCompatibility[]
+  knowledge       EngineeringKnowledge[]
+  quotations      Quotation[]
+
+  @@index([manufacturer, model])
+  @@map("vehicles")
+}
+
+// ---------------------------------------------------------------------------
+// Quality grades (configurable — Pink, Yellow, Forta, Endurance, ...)
+// ---------------------------------------------------------------------------
+
+model QualityGrade {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String
+  rank        Int
+  description String?
+  active      Boolean  @default(true)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  prices PartPrice[]
+  quotationItems QuotationItem[]
+
+  @@map("quality_grades")
+}
+
+// ---------------------------------------------------------------------------
+// Parts
+// ---------------------------------------------------------------------------
+
+model Part {
+  id             String   @id @default(cuid())
+  name           String
+  description    String?
+  category       String?
+  subcategory    String?
+  partNumber     String?  @map("part_number")
+  vehicleSystem  String?  @map("vehicle_system")
+  manufacturerId String?  @map("manufacturer_id")
+  active         Boolean  @default(true)
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  manufacturer   Manufacturer?        @relation(fields: [manufacturerId], references: [id])
+  aliases        PartAlias[]
+  prices         PartPrice[]
+  compatibilities PartCompatibility[]
+  relationshipsFrom PartRelationship[] @relation("RelationshipSource")
+  relationshipsTo   PartRelationship[] @relation("RelationshipTarget")
+  knowledge      EngineeringKnowledge[]
+  recommendationTriggers Recommendation[] @relation("RecommendationTrigger")
+  recommendationTargets Recommendation[] @relation("RecommendationTarget")
+  quotationItems QuotationItem[]
+  feedback       HumanFeedback[]
+
+  @@index([name])
+  @@index([partNumber])
+  @@map("parts")
+}
+
+// ---------------------------------------------------------------------------
+// Aliases — all alternative / local / mechanic names
+// ---------------------------------------------------------------------------
+
+model PartAlias {
+  id         String   @id @default(cuid())
+  partId     String   @map("part_id")
+  alias      String
+  language   String   @default("en")
+  source     String?
+  confidence Float?   @default(1)
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  part Part @relation(fields: [partId], references: [id], onDelete: Cascade)
+
+  @@index([alias])
+  @@index([partId])
+  @@map("part_aliases")
+}
+
+// ---------------------------------------------------------------------------
+// Prices — versioned; never silently overwrite, deactivate + insert new
+// ---------------------------------------------------------------------------
+
+model PartPrice {
+  id              String   @id @default(cuid())
+  partId          String   @map("part_id")
+  qualityGradeId  String   @map("quality_grade_id")
+  price           Decimal  @db.Decimal(12, 2)
+  currency        String   @default("GHS")
+  effectiveFrom   DateTime @default(now()) @map("effective_from")
+  effectiveTo     DateTime? @map("effective_to")
+  active          Boolean  @default(true)
+  source          String?
+  notes           String?
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  part        Part         @relation(fields: [partId], references: [id], onDelete: Cascade)
+  qualityGrade QualityGrade @relation(fields: [qualityGradeId], references: [id])
+
+  @@index([partId, active])
+  @@index([qualityGradeId])
+  @@map("part_prices")
+}
+
+// ---------------------------------------------------------------------------
+// Compatibility — vehicle <-> part
+// ---------------------------------------------------------------------------
+
+model PartCompatibility {
+  id        String               @id @default(cuid())
+  vehicleId String               @map("vehicle_id")
+  partId    String               @map("part_id")
+  status    CompatibilityStatus  @default(UNKNOWN)
+  notes     String?
+  source    String?
+  confidence Float?              @default(1)
+  createdAt DateTime             @default(now()) @map("created_at")
+  updatedAt DateTime             @updatedAt @map("updated_at")
+
+  vehicle Vehicle @relation(fields: [vehicleId], references: [id], onDelete: Cascade)
+  part    Part    @relation(fields: [partId], references: [id], onDelete: Cascade)
+
+  @@unique([vehicleId, partId])
+  @@map("part_compatibility")
+}
+
+// ---------------------------------------------------------------------------
+// Part relationships — complementary / inspect / replace-with / etc.
+// ---------------------------------------------------------------------------
+
+model PartRelationship {
+  id               String           @id @default(cuid())
+  sourcePartId     String           @map("source_part_id")
+  targetPartId     String           @map("target_part_id")
+  relationshipType RelationshipType @map("relationship_type")
+  reason           String?
+  confidence       Float?           @default(1)
+  source           String?
+  active           Boolean          @default(true)
+  createdAt        DateTime         @default(now()) @map("created_at")
+  updatedAt        DateTime         @updatedAt @map("updated_at")
+
+  sourcePart Part @relation("RelationshipSource", fields: [sourcePartId], references: [id], onDelete: Cascade)
+  targetPart Part @relation("RelationshipTarget", fields: [targetPartId], references: [id], onDelete: Cascade)
+
+  @@index([sourcePartId, relationshipType])
+  @@map("part_relationships")
+}
+
+// ---------------------------------------------------------------------------
+// Engineering knowledge
+// ---------------------------------------------------------------------------
+
+model EngineeringKnowledge {
+  id        String        @id @default(cuid())
+  partId    String?       @map("part_id")
+  vehicleId String?       @map("vehicle_id")
+  title     String
+  content   String
+  kind      KnowledgeType @default(GENERAL)
+  source    String?
+  active    Boolean       @default(true)
+  createdAt DateTime      @default(now()) @map("created_at")
+  updatedAt DateTime      @updatedAt @map("updated_at")
+
+  part    Part?    @relation(fields: [partId], references: [id], onDelete: Cascade)
+  vehicle Vehicle? @relation(fields: [vehicleId], references: [id], onDelete: SetNull)
+
+  @@index([partId])
+  @@map("engineering_knowledge")
+}
+
+// ---------------------------------------------------------------------------
+// Documents + knowledge chunks (Phase 2 RAG)
+// ---------------------------------------------------------------------------
+
+model Document {
+  id            String       @id @default(cuid())
+  title         String
+  manufacturer  String?
+  url           String?
+  documentType  DocumentType @default(OTHER) @map("document_type")
+  extractedText String?      @map("extracted_text")
+  metadata      Json?
+  source        String?
+  createdAt     DateTime     @default(now()) @map("created_at")
+
+  chunks KnowledgeChunk[]
+
+  @@map("documents")
+}
+
+model KnowledgeChunk {
+  id         String  @id @default(cuid())
+  documentId String  @map("document_id")
+  chunkText  String  @map("chunk_text")
+  chunkIndex Int?    @map("chunk_index")
+  metadata   Json?
+
+  document Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+
+  @@index([documentId])
+  @@map("knowledge_chunks")
+}
+
+// ---------------------------------------------------------------------------
+// Explicit recommendation rules taught by staff
+// ---------------------------------------------------------------------------
+
+model Recommendation {
+  id                 String           @id @default(cuid())
+  triggerPartId      String           @map("trigger_part_id")
+  recommendedPartId  String           @map("recommended_part_id")
+  recommendationType RelationshipType @map("recommendation_type")
+  reason             String?
+  priority           Int              @default(5)
+  confidence         Float?           @default(1)
+  active             Boolean          @default(true)
+  createdAt          DateTime         @default(now()) @map("created_at")
+  updatedAt          DateTime         @updatedAt @map("updated_at")
+
+  triggerPart     Part @relation("RecommendationTrigger", fields: [triggerPartId], references: [id], onDelete: Cascade)
+  recommendedPart Part @relation("RecommendationTarget", fields: [recommendedPartId], references: [id], onDelete: Cascade)
+
+  @@index([triggerPartId, active])
+  @@map("recommendations")
+}
+
+// ---------------------------------------------------------------------------
+// Human feedback / corrections
+// ---------------------------------------------------------------------------
+
+model HumanFeedback {
+  id              String       @id @default(cuid())
+  conversationId  String?      @map("conversation_id")
+  partId          String?      @map("part_id")
+  feedbackType    FeedbackType @map("feedback_type")
+  userInput       String?      @map("user_input")
+  aiResponse      String?      @map("ai_response")
+  correctionText  String?      @map("correction_text")
+  status          String       @default("open")
+  createdBy       String?      @map("created_by")
+  createdAt       DateTime     @default(now()) @map("created_at")
+
+  conversation Conversation? @relation(fields: [conversationId], references: [id], onDelete: SetNull)
+  part        Part?         @relation(fields: [partId], references: [id], onDelete: SetNull)
+
+  @@map("human_feedback")
+}
+
+// ---------------------------------------------------------------------------
+// AI conversations — auditability
+// ---------------------------------------------------------------------------
+
+model Conversation {
+  id           String           @id @default(cuid())
+  sessionId    String           @map("session_id")
+  title        String?
+  startedAt    DateTime         @default(now()) @map("started_at")
+  updatedAt    DateTime         @updatedAt @map("updated_at")
+  endedAt      DateTime?        @map("ended_at")
+
+  messages ConversationMessage[]
+  feedback HumanFeedback[]
+
+  @@index([sessionId])
+  @@map("conversations")
+}
+
+model ConversationMessage {
+  id          String           @id @default(cuid())
+  conversationId String         @map("conversation_id")
+  role        ConversationRole
+  content     String
+  toolsCalled Json?            @map("tools_called")
+  retrievedRecords Json?       @map("retrieved_records")
+  model       String?
+  createdAt   DateTime         @default(now()) @map("created_at")
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  @@index([conversationId])
+  @@map("conversation_messages")
+}
+
+// ---------------------------------------------------------------------------
+// Quotations (Phase 4)
+// ---------------------------------------------------------------------------
+
+model Quotation {
+  id            String          @id @default(cuid())
+  reference     String          @unique
+  sessionId     String?         @map("session_id")
+  customerName  String?         @map("customer_name")
+  vehicleId     String?         @map("vehicle_id")
+  status        QuotationStatus @default(DRAFT)
+  notes         String?
+  createdAt     DateTime        @default(now()) @map("created_at")
+  updatedAt     DateTime        @updatedAt @map("updated_at")
+
+  vehicle Vehicle? @relation(fields: [vehicleId], references: [id], onDelete: SetNull)
+  items   QuotationItem[]
+
+  @@index([sessionId])
+  @@map("quotations")
+}
+
+model QuotationItem {
+  id          String   @id @default(cuid())
+  quotationId String   @map("quotation_id")
+  partId      String   @map("part_id")
+  qualityGradeId String? @map("quality_grade_id")
+  quantity    Int      @default(1)
+  unitPrice   Decimal  @db.Decimal(12, 2)
+  currency    String   @default("GHS")
+  isRecommended Boolean @default(false) @map("is_recommended")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  quotation   Quotation    @relation(fields: [quotationId], references: [id], onDelete: Cascade)
+  part        Part         @relation(fields: [partId], references: [id])
+  qualityGrade QualityGrade? @relation(fields: [qualityGradeId], references: [id])
+
+  @@map("quotation_items")
+}
