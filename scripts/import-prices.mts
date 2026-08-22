@@ -234,7 +234,7 @@ async function main() {
     if (seenItems.has(itemKey)) continue;
     seenItems.add(itemKey);
 
-    let part = partByNorm.get(key);
+    const part = partByNorm.get(key);
     if (!part) {
       const pending = newParts.find((p) => normalizeName(p.name) === key);
       if (!pending) {

@@ -1,4 +1,4 @@
-import "dotenv/config";
+﻿import "dotenv/config";
 import { PrismaClient, Prisma } from "@/generated/prisma/client";
 import { PrismaNeon } from "@prisma/adapter-neon";
 import { neonConfig } from "@neondatabase/serverless";
@@ -242,7 +242,7 @@ async function main() {
   const rel = (srcId: string | undefined, tgtId: string | undefined, relationshipType: string, reason: string) => {
     if (!srcId || !tgtId) return undefined;
     return prisma.partRelationship.create({
-      data: { sourcePartId: srcId, targetPartId: tgtId, relationshipType: relationshipType as any, reason, confidence: 0.95, source: "seed" },
+      data: { sourcePartId: srcId, targetPartId: tgtId, relationshipType: relationshipType as never, reason, confidence: 0.95, source: "seed" },
     });
   };
 

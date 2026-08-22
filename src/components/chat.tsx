@@ -7,7 +7,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import Image from "next/image";
 import { AlertCircle, Send, User } from "lucide-react";
+
+const AVATAR_URL = "https://res.cloudinary.com/dwsl2ktt2/image/upload/v1786937253/ott_nv3is9.png";
 
 function extractText(message: UIMessage): string {
   return (message.parts ?? [])
@@ -51,9 +54,11 @@ export function Chat() {
       <CardHeader className="border-b bg-gradient-to-r from-black/[0.04] via-transparent to-black/[0.04]">
         <CardTitle className="flex items-center gap-2">
           <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary text-primary-foreground shadow-sm">
-            <img
-              src="https://res.cloudinary.com/dwsl2ktt2/image/upload/v1786937253/ott_nv3is9.png"
+            <Image
+              src={AVATAR_URL}
               alt="DEGOONY Assistant"
+              width={16}
+              height={16}
               className="h-4 w-4 rounded-full object-cover"
             />
           </span>
@@ -87,9 +92,11 @@ export function Chat() {
           return (
             <div key={m.id} className={`flex gap-2 ${m.role === "user" ? "justify-end" : "justify-start"}`}>
               {m.role !== "user" && (
-                  <img
-                    src="https://res.cloudinary.com/dwsl2ktt2/image/upload/v1786937253/ott_nv3is9.png"
+                  <Image
+                    src={AVATAR_URL}
                     alt="DEGOONY Assistant"
+                    width={20}
+                    height={20}
                     className="mt-1 h-5 w-5 shrink-0 rounded-full object-cover text-muted-foreground"
                   />
                 )}
