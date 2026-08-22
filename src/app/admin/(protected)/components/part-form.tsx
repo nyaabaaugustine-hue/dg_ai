@@ -27,6 +27,7 @@ export type PartFormProps = {
     partNumber?: string | null;
     vehicleSystem?: string | null;
     manufacturerId?: string | null;
+    stockQty?: number | null;
     active: boolean;
     aliases: { id: string; alias: string }[];
   };
@@ -74,6 +75,18 @@ export function PartForm({ manufacturers, initial }: PartFormProps) {
         <div className="space-y-2">
           <Label htmlFor="vehicleSystem">Vehicle system</Label>
           <Input id="vehicleSystem" name="vehicleSystem" defaultValue={initial?.vehicleSystem ?? ""} placeholder="e.g. Engine, Brake, Suspension" />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="stockQty">Stock quantity</Label>
+          <Input
+            id="stockQty"
+            name="stockQty"
+            type="number"
+            min={0}
+            step={1}
+            defaultValue={initial?.stockQty ?? ""}
+            placeholder="Leave blank if unknown"
+          />
         </div>
         <div className="space-y-2">
           <Label htmlFor="manufacturerId">Manufacturer</Label>

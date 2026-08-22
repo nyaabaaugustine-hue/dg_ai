@@ -79,6 +79,7 @@ export default async function PartsPage({
               <th className="p-3 font-medium">Part #</th>
               <th className="p-3 font-medium">Category</th>
               <th className="p-3 font-medium">System</th>
+              <th className="p-3 font-medium">Stock</th>
               <th className="p-3 font-medium">Prices</th>
               <th className="p-3 font-medium">Aliases</th>
               <th className="p-3 font-medium"></th>
@@ -94,6 +95,15 @@ export default async function PartsPage({
                 <td className="p-3 text-muted-foreground">{p.partNumber ?? "—"}</td>
                 <td className="p-3 text-muted-foreground">{p.category ?? "—"}</td>
                 <td className="p-3 text-muted-foreground">{p.vehicleSystem ?? "—"}</td>
+                <td className="p-3">
+                  {p.stockQty === null || p.stockQty === undefined ? (
+                    <span className="text-muted-foreground">—</span>
+                  ) : p.stockQty <= 0 ? (
+                    <Badge variant="destructive">Out of stock</Badge>
+                  ) : (
+                    <Badge variant={p.stockQty <= 5 ? "secondary" : "outline"}>{p.stockQty}</Badge>
+                  )}
+                </td>
                 <td className="p-3">
                   <div className="flex flex-wrap gap-1">
                     {p.prices.length === 0 && <span className="text-muted-foreground">—</span>}

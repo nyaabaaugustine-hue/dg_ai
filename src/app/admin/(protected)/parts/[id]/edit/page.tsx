@@ -52,6 +52,7 @@ export default async function EditPartPage({ params }: { params: Promise<{ id: s
               partNumber: part.partNumber,
               vehicleSystem: part.vehicleSystem,
               manufacturerId: part.manufacturerId,
+              stockQty: part.stockQty,
               active: part.active,
               aliases: part.aliases,
             }}

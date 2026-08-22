@@ -16,11 +16,12 @@ const partSchema = z.object({
   partNumber: z.string().optional().default(""),
   vehicleSystem: z.string().optional().default(""),
   manufacturerId: z.string().optional().default(""),
+  stockQty: z.coerce.number().int().min(0).max(1_000_000).nullable(),
   active: z.enum(["on", "off"]).optional().default("on"),
 });
 
-export async function createPart(formData: FormData) {
-  const parsed = partSchema.safeParse({
+function readPartForm(formData: FormData) {
+  return partSchema.safeParse({
     name: formData.get("name"),
     description: formData.get("description"),
     category: formData.get("category"),
@@ -28,8 +29,16 @@ export async function createPart(formData: FormData) {
     partNumber: formData.get("partNumber"),
     vehicleSystem: formData.get("vehicleSystem"),
     manufacturerId: formData.get("manufacturerId"),
+    stockQty:
+      formData.get("stockQty") === "" || formData.get("stockQty") === null
+        ? null
+        : formData.get("stockQty"),
     active: formData.get("active"),
   });
+}
+
+export async function createPart(formData: FormData) {
+  const parsed = readPartForm(formData);
   if (!parsed.success) throw new Error(parsed.error.errors.map((e) => e.message).join("; "));
 
   const data = parsed.data;
@@ -47,6 +56,7 @@ export async function createPart(formData: FormData) {
       partNumber: data.partNumber || null,
       vehicleSystem: data.vehicleSystem || null,
       manufacturerId: data.manufacturerId || null,
+      stockQty: data.stockQty,
       active: data.active === "on",
       aliases: { create: aliases.map((alias) => ({ alias, language: "en", source: "admin", confidence: 1 })) },
     },
@@ -56,16 +66,7 @@ export async function createPart(formData: FormData) {
 
 export async function updatePart(formData: FormData) {
   const id = String(formData.get("id") ?? "");
-  const parsed = partSchema.safeParse({
-    name: formData.get("name"),
-    description: formData.get("description"),
-    category: formData.get("category"),
-    subcategory: formData.get("subcategory"),
-    partNumber: formData.get("partNumber"),
-    vehicleSystem: formData.get("vehicleSystem"),
-    manufacturerId: formData.get("manufacturerId"),
-    active: formData.get("active"),
-  });
+  const parsed = readPartForm(formData);
   if (!parsed.success) throw new Error(parsed.error.errors.map((e) => e.message).join("; "));
   const data = parsed.data;
 
@@ -79,6 +80,7 @@ export async function updatePart(formData: FormData) {
       partNumber: data.partNumber || null,
       vehicleSystem: data.vehicleSystem || null,
       manufacturerId: data.manufacturerId || null,
+      stockQty: data.stockQty,
       active: data.active === "on",
     },
   });

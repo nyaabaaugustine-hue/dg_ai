@@ -1,7 +1,5 @@
 import { prisma } from "@/lib/db";
 
-const CURRENCY = process.env.DEFAULT_CURRENCY ?? "GHS";
-
 type SearchResult = {
   id: string;
   name: string;
@@ -9,9 +7,17 @@ type SearchResult = {
   category: string | null;
   vehicleSystem: string | null;
   manufacturer: string | null;
+  stockQty: number | null;
   prices: { grade: string; price: string; currency: string }[];
   match: "exact" | "alias" | "part_number" | "contains" | "fuzzy";
 };
+
+export function formatStock(qty: number | null): string {
+  if (qty === null || qty === undefined) return "stock unknown";
+  if (qty <= 0) return "out of stock";
+  if (qty <= 5) return `low stock (${qty} left)`;
+  return `in stock (${qty})`;
+}
 
 function fmtPrice(p: { price: { toString(): string } }) {
   return Number(p.price.toString()).toLocaleString(undefined, { minimumFractionDigits: 0 });
@@ -33,6 +39,7 @@ async function withPrices(partIds: string[]): Promise<SearchResult[]> {
     category: p.category,
     vehicleSystem: p.vehicleSystem,
     manufacturer: p.manufacturer?.name ?? null,
+    stockQty: p.stockQty,
     prices: p.prices.map((pp) => ({
       grade: pp.qualityGrade.name,
       price: fmtPrice(pp),
@@ -335,7 +342,7 @@ export function formatSearchResults(results: SearchResult[]): string {
   if (results.length === 0) return "No parts found in the database.";
   const lines: string[] = [];
   for (const r of results) {
-    lines.push(`- ${r.name}${r.partNumber ? ` (${r.partNumber})` : ""}${r.manufacturer ? ` [${r.manufacturer}]` : ""}${r.match !== "exact" ? ` (matched by ${r.match})` : ""}`);
+    lines.push(`- ${r.name}${r.partNumber ? ` (${r.partNumber})` : ""}${r.manufacturer ? ` [${r.manufacturer}]` : ""} — ${formatStock(r.stockQty)}${r.match !== "exact" ? ` (matched by ${r.match})` : ""}`);
     for (const p of r.prices) lines.push(`    ${p.grade}: ${p.currency === "GHS" ? "GH₵" : p.currency + " "}${p.price}`);
   }
   return lines.join("\n");

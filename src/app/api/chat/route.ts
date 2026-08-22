@@ -1,4 +1,6 @@
+import { z } from "zod";
 import { prisma } from "@/lib/db";
+import { rateLimit } from "@/lib/rate-limit";
 import {
   isCloudflareConfigured,
   getFastModel,
@@ -16,6 +18,7 @@ import {
   searchManufacturer,
   formatSearchResults,
   formatRecommendations,
+  formatStock,
 } from "@/lib/ai-tools";
 
 export const runtime = "nodejs";
@@ -37,7 +40,8 @@ RULES — follow strictly:
 5. After pricing, use find_related_parts to recommend complementary parts and drive add-on sales.
 6. Use check_compatibility when the customer mentions a vehicle (e.g. Bajaj RE, TVS King).
 7. Be a friendly Ghanaian salesperson: polite, concise, helpful, never pushy. Customer must confirm before anything is added to a quotation.
-8. Answer in plain text with short bullet lists. Keep replies tight.`;
+8. Answer in plain text with short bullet lists. Keep replies tight.
+9. Be honest about availability: report stock exactly as the tools return it (in stock, low stock, out of stock). If out of stock, offer to check alternatives or take the enquiry for restocking.`;
 
 type UiMessage = {
   role?: string;
@@ -59,10 +63,10 @@ function messageToText(m: UiMessage): string {
 const TOOLS: CloudflareTool[] = [
   {
     type: "function",
-    function: {
-      name: "search_parts",
-      description:
-        "Search the parts database by name, alias, or part number. Returns matching parts with current prices per quality grade (Pink, Yellow, Forte/Endurance). Call this before quoting any price.",
+      function: {
+        name: "search_parts",
+        description:
+          "Search the parts database by name, alias, or part number. Returns matching parts with current prices per quality grade (Pink, Yellow, Forte/Endurance) and stock levels. Call this before quoting any price.",
       parameters: {
         type: "object",
         properties: {
@@ -147,7 +151,10 @@ const TOOLS: CloudflareTool[] = [
   },
 ];
 
-async function executeTool(tc: CloudflareToolCall): Promise<string> {
+async function executeTool(
+  tc: CloudflareToolCall,
+  searchEvents?: { query: string; resultCount: number }[],
+): Promise<string> {
   let args: Record<string, unknown>;
   try {
     args = JSON.parse(tc.function.arguments || "{}");
@@ -161,6 +168,7 @@ async function executeTool(tc: CloudflareToolCall): Promise<string> {
       if (!query) return "Error: missing 'query' argument.";
       const limit = Number(args.limit ?? 8) || 8;
       const results = await searchParts(query, Math.min(limit, 20));
+      searchEvents?.push({ query: query.slice(0, 500), resultCount: results.length });
       return formatSearchResults(results);
     }
     case "get_part_details": {
@@ -170,6 +178,7 @@ async function executeTool(tc: CloudflareToolCall): Promise<string> {
         `${part.name} (${part.partNumber ?? "no part number"})`,
         part.manufacturer ? `Manufacturer: ${part.manufacturer.name}` : "",
         `Category: ${part.category ?? "n/a"} / ${part.vehicleSystem ?? "n/a"}`,
+        `Availability: ${formatStock(part.stockQty)}`,
         `Aliases: ${part.aliases.map((a) => a.alias).join(", ") || "none"}`,
         "Prices:",
       ];
@@ -226,15 +235,54 @@ function sse(controller: ReadableStreamDefaultController, event: unknown) {
   controller.enqueue(new TextEncoder().encode(`data: ${JSON.stringify(event)}\n\n`));
 }
 
+const chatBodySchema = z.object({
+  id: z.string().max(128).optional(),
+  sessionId: z.string().max(128).optional(),
+  messages: z
+    .array(
+      z.object({
+        role: z.enum(["user", "assistant"]),
+        content: z.string().max(4_000).optional(),
+        parts: z
+          .array(z.object({ type: z.string().optional(), text: z.string().max(4_000).optional() }).passthrough())
+          .max(20)
+          .optional(),
+      }).passthrough(),
+    )
+    .max(30)
+    .optional(),
+});
+
+/** Keep the prompt bounded: only the most recent turns go back to the model. */
+const MAX_MODEL_HISTORY = 20;
+
+function clientIp(req: Request): string {
+  return (
+    req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+    req.headers.get("x-real-ip") ||
+    "unknown"
+  );
+}
+
 export async function POST(req: Request) {
-  let body: { id?: string; sessionId?: string; messages?: UiMessage[] };
+  // Public endpoint that costs AI tokens + DB queries on every hit — rate limit it.
+  if (!rateLimit(`chat:${clientIp(req)}`, 20, 60_000)) {
+    return new Response("Too many requests. Please wait a moment.", { status: 429 });
+  }
+
+  let raw: unknown;
   try {
-    body = await req.json();
+    raw = await req.json();
   } catch {
     return new Response("Invalid JSON body.", { status: 400 });
   }
+  const parsed = chatBodySchema.safeParse(raw);
+  if (!parsed.success) {
+    return new Response("Invalid request body.", { status: 400 });
+  }
+  const body = parsed.data;
 
-  const rawMessages = body.messages ?? [];
+  const rawMessages = (body.messages ?? []) as UiMessage[];
   const sessionId = body.sessionId ?? body.id ?? crypto.randomUUID();
 
   if (!isCloudflareConfigured()) {
@@ -250,7 +298,7 @@ export async function POST(req: Request) {
     { role: "system", content: SYSTEM_PROMPT },
   ];
 
-  for (const m of rawMessages) {
+  for (const m of rawMessages.slice(-MAX_MODEL_HISTORY)) {
     const text = messageToText(m);
     if ((m.role === "user" || m.role === "assistant") && text.trim()) {
       history.push({ role: m.role as "user" | "assistant", content: text });
@@ -280,7 +328,7 @@ export async function POST(req: Request) {
         const lastUserText = [...rawMessages].reverse().find((m) => m.role === "user");
         const lastUserContent = lastUserText ? messageToText(lastUserText) : "";
         const forceSearch = lastUserContent.trim() ? looksLikePartsQuery(lastUserContent) : false;
-        console.log("[chat-debug] forceSearch =", forceSearch, "| lastUser =", JSON.stringify(lastUserContent).slice(0, 120), "| historyLen =", history.length);
+        const searchEvents: { query: string; resultCount: number }[] = [];
 
         for (let round = 0; round < 4; round++) {
           const toolCalls: CloudflareToolCall[] = [];
@@ -306,7 +354,6 @@ export async function POST(req: Request) {
               }
             }
           }
-          console.log("[chat-debug] round", round, "toolChoice=", JSON.stringify(roundOptions.toolChoice ?? "auto"), "toolCalls =", JSON.stringify(toolCalls.map((t) => t.function)));
 
           if (toolCalls.length === 0) break;
 
@@ -319,7 +366,7 @@ export async function POST(req: Request) {
           for (const tc of toolCalls) {
             let result: string;
             try {
-              result = await executeTool(tc);
+              result = await executeTool(tc, searchEvents);
             } catch (e) {
               result = `Error executing ${tc.function.name}: ${e instanceof Error ? e.message : "unknown error"}`;
             }
@@ -344,6 +391,15 @@ export async function POST(req: Request) {
             create: { id: sessionId, sessionId, title: history[1]?.content?.slice(0, 80) || null },
             update: {},
           });
+          if (searchEvents.length > 0) {
+            await prisma.searchQueryLog.createMany({
+              data: searchEvents.map((e) => ({
+                query: e.query,
+                resultCount: e.resultCount,
+                conversationId: conversation.id,
+              })),
+            });
+          }
           const lastUser = [...rawMessages].reverse().find((m) => m.role === "user");
           const lastUserText = lastUser ? messageToText(lastUser) : "";
           if (lastUserText) {
