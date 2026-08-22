@@ -154,6 +154,7 @@ model Part {
   partNumber     String?  @map("part_number")
   vehicleSystem  String?  @map("vehicle_system")
   manufacturerId String?  @map("manufacturer_id")
+  stockQty       Int?     @map("stock_qty")
   active         Boolean  @default(true)
   createdAt      DateTime @default(now()) @map("created_at")
   updatedAt      DateTime @updatedAt @map("updated_at")
@@ -422,6 +423,22 @@ model Quotation {
 
   @@index([sessionId])
   @@map("quotations")
+}
+
+// ---------------------------------------------------------------------------
+// Search analytics — what customers ask for most
+// ---------------------------------------------------------------------------
+
+model SearchQueryLog {
+  id             String   @id @default(cuid())
+  query          String
+  resultCount    Int      @default(0)
+  conversationId String?  @map("conversation_id")
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  @@index([createdAt])
+  @@index([query])
+  @@map("search_query_logs")
 }
 
 model QuotationItem {
