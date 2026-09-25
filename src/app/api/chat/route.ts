@@ -210,6 +210,36 @@ const TOOLS: CloudflareTool[] = [
   },
 ];
 
+const FILLER_WORDS = new Set([
+  "for", "a", "an", "the", "of", "my", "our", "me", "i", "we", "is", "are", "am",
+  "with", "and", "or", "to", "in", "on", "at", "do", "you", "have", "has", "need",
+  "want", "please", "can", "get", "give", "show", "find", "looking", "search",
+  "price", "prices", "cost", "costs", "how", "much", "any", "some", "what", "whats",
+  "available", "stock", "in", "available", "buy", "purchase", "part", "parts",
+]);
+
+function simplifyQuery(query: string): string[] {
+  const words = query
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter((w) => w.length > 1 && !FILLER_WORDS.has(w));
+
+  const uniq = [...new Set(words)];
+  if (uniq.length === 0) return [];
+  if (uniq.length === 1) return uniq;
+
+  const variants: string[] = [];
+  variants.push(uniq.slice(0, 3).join(" "));
+  variants.push(uniq.slice(0, 2).join(" "));
+  if (uniq.length > 3) {
+    variants.push(uniq.slice(-2).join(" "));
+    variants.push(uniq.slice(-3).join(" "));
+  }
+  for (const w of uniq) variants.push(w);
+  return [...new Set(variants)];
+}
+
 async function executeTool(
   tc: CloudflareToolCall,
   searchEvents?: { query: string; resultCount: number }[],
@@ -226,9 +256,23 @@ async function executeTool(
     case "search_parts": {
       const query = String(args.query ?? "").trim();
       if (!query) return "Error: missing 'query' argument.";
-      const limit = Number(args.limit ?? 8) || 8;
-      const results = await searchParts(query, Math.min(limit, 20));
+      const limit = Math.min(Number(args.limit ?? 8) || 8, 20);
+      let results = await searchParts(query, limit);
       searchEvents?.push({ query: query.slice(0, 500), resultCount: results.length });
+
+      if (results.length === 0) {
+        for (const simplified of simplifyQuery(query)) {
+          results = await searchParts(simplified, limit);
+          if (results.length > 0) {
+            searchEvents?.push({
+              query: `${query} → ${simplified}`.slice(0, 500),
+              resultCount: results.length,
+            });
+            break;
+          }
+        }
+      }
+
       return formatSearchResults(results);
     }
     case "get_part_details": {
