@@ -24,14 +24,28 @@ function extractText(message: UIMessage): string {
     .join("");
 }
 
-const URL_RE = /(https?:\/\/[^\s<>()]+|www\.[^\s<>()]+)/g;
-const PHONE_RE = /(\+\d{1,4}\)?[\s-]?)?(?:\(?\d{2,4}\)?[\s-]?){2,4}\d{3,4}/g;
+const URL_RE_SOURCE = String.raw`(https?:\/\/[^\s<>()]+|www\.[^\s<>()]+)`;
+const PHONE_RE_SOURCE = String.raw`[+(]?[+(]?\d[\d\s()-]{6,}\d`;
 
-function isLikelyPhone(part: string, before: string, after: string): boolean {
-  if (/GH|₵|,/i.test(part)) return false;
+function looksLikePhone(part: string, before: string): boolean {
+  if (/GH|₵|,|%|x/i.test(part)) return false;
   if (/[₵$€£]/.test(before.slice(-2))) return false;
   const digits = part.replace(/\D/g, "");
-  return digits.length >= 9 && digits.length <= 15;
+  if (digits.length < 9 || digits.length > 15) return false;
+  const trimmed = part.trim();
+  if (!/^\d/.test(trimmed.replace(/^[+(.\s]+/, ""))) return false;
+  return /[+(]/.test(trimmed) || /^0\d/.test(trimmed);
+}
+
+function toWhatsAppHref(raw: string): string {
+  const digits = raw.replace(/\D/g, "");
+  if (digits.startsWith("233")) {
+    let national = digits.slice(3);
+    if (national.startsWith("0")) national = national.slice(1);
+    return `https://wa.me/233${national}`;
+  }
+  if (digits.startsWith("0")) return `https://wa.me/233${digits.slice(1)}`;
+  return `https://wa.me/${digits}`;
 }
 
 function linkify(text: string, isUser: boolean): React.ReactNode[] {
@@ -40,39 +54,45 @@ function linkify(text: string, isUser: boolean): React.ReactNode[] {
   }`;
 
   const nodes: React.ReactNode[] = [];
-  text.split(URL_RE).forEach((chunk, chunkIndex) => {
-    if (!chunk) return;
-    if (/^(https?:\/\/|www\.)/i.test(chunk)) {
-      const href = chunk.startsWith("www.") ? `https://${chunk}` : chunk;
-      const isWhatsApp = /wa\.me|whatsapp\.com/i.test(href);
-      nodes.push(
-        <a key={chunkIndex} href={href} target="_blank" rel="noopener noreferrer" className={linkClass}>
-          {chunk}
-        </a>,
-      );
-      return;
-    }
+  let key = 0;
+  const link = (href: string, label: string) => (
+    <a key={`l${key++}`} href={href} target="_blank" rel="noopener noreferrer" className={linkClass}>
+      {label}
+    </a>
+  );
 
-    chunk.split(PHONE_RE).forEach((piece, pieceIndex) => {
-      if (!piece) return;
-      if (isLikelyPhone(piece, chunk.slice(0, pieceIndex), chunk.slice(pieceIndex + piece.length)) && /\d/.test(piece)) {
-        const digits = piece.replace(/\D/g, "");
-        nodes.push(
-          <a
-            key={`${chunkIndex}-${pieceIndex}`}
-            href={`https://wa.me/${digits}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={linkClass}
-          >
-            {piece}
-          </a>,
-        );
-        return;
+  const pushPlain = (segment: string) => {
+    const phoneRe = new RegExp(PHONE_RE_SOURCE, "g");
+    let cursor = 0;
+    let m: RegExpExecArray | null;
+    while ((m = phoneRe.exec(segment)) !== null) {
+      const raw = m[0];
+      const before = segment.slice(0, m.index);
+      if (looksLikePhone(raw, before)) {
+        if (m.index > cursor) nodes.push(<span key={`s${key++}`}>{segment.slice(cursor, m.index)}</span>);
+        nodes.push(link(toWhatsAppHref(raw), raw));
+        cursor = m.index + raw.length;
       }
-      nodes.push(<span key={`${chunkIndex}-${pieceIndex}`}>{piece}</span>);
-    });
-  });
+    }
+    if (cursor < segment.length) nodes.push(<span key={`s${key++}`}>{segment.slice(cursor)}</span>);
+  };
+
+  const urlRe = new RegExp(URL_RE_SOURCE, "g");
+  let last = 0;
+  let u: RegExpExecArray | null;
+  while ((u = urlRe.exec(text)) !== null) {
+    let raw = u[0];
+    const trailing = raw.match(/[.,;:!?]+$/);
+    if (trailing) raw = raw.slice(0, -trailing[0].length);
+    if (raw.length === 0) continue;
+
+    if (u.index > last) pushPlain(text.slice(last, u.index));
+    const href = raw.startsWith("www.") ? `https://${raw}` : raw;
+    nodes.push(link(href, raw));
+    if (trailing) nodes.push(<span key={`s${key++}`}>{trailing[0]}</span>);
+    last = u.index + u[0].length;
+  }
+  if (last < text.length) pushPlain(text.slice(last));
 
   return nodes;
 }
