@@ -1,7 +1,7 @@
 "use server";
 
 import { redirect } from "next/navigation";
-import { checkCredentials, setSessionCookie } from "@/lib/auth";
+import { checkCredentials, setSessionCookie, clearSessionCookie } from "@/lib/auth";
 
 export type LoginState = { error?: string } | null;
 
@@ -16,5 +16,6 @@ export async function login(_prev: LoginState, formData: FormData): Promise<Logi
 }
 
 export async function logout(): Promise<void> {
+  await clearSessionCookie();
   redirect("/admin/login");
 }

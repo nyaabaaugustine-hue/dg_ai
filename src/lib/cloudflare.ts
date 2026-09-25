@@ -199,6 +199,37 @@ export async function* cloudflareStreamChat(
 
   // Track accumulated tool calls
   const toolCallAccumulator: Map<number, { id: string; name: string; arguments: string }> = new Map();
+  // Some Cloudflare models close the stream without ever sending "[DONE]";
+  // without a final flush their tool calls would be silently dropped and the
+  // model would answer without database data.
+  let toolCallsFlushed = false;
+  const knownToolNames = (options?.tools ?? []).map((t) => t.function.name);
+  const flushToolCalls = (): { type: "tool_call"; data: string }[] => {
+    if (toolCallsFlushed) return [];
+    toolCallsFlushed = true;
+    const out: { type: "tool_call"; data: string }[] = [];
+    for (const [, tc] of toolCallAccumulator) {
+      // Repair duplicated names ("search_partssearch_parts") from providers
+      // that resend the full name on every chunk instead of appending deltas.
+      let name = tc.name;
+      for (const known of knownToolNames) {
+        if (name.startsWith(known)) {
+          name = known;
+          break;
+        }
+      }
+      if (!name || !tc.arguments.trim()) continue;
+      out.push({
+        type: "tool_call",
+        data: JSON.stringify({
+          id: tc.id || `call_${name}_${out.length}`,
+          type: "function",
+          function: { name, arguments: tc.arguments },
+        }),
+      });
+    }
+    return out;
+  };
 
   try {
     while (true) {
@@ -215,19 +246,7 @@ export async function* cloudflareStreamChat(
 
         const data = trimmed.slice(6);
         if (data === "[DONE]") {
-          // Flush any accumulated tool calls
-          for (const [, tc] of toolCallAccumulator) {
-            if (tc.name && tc.arguments) {
-              yield {
-                type: "tool_call",
-                data: JSON.stringify({
-                  id: tc.id,
-                  type: "function",
-                  function: { name: tc.name, arguments: tc.arguments },
-                }),
-              };
-            }
-          }
+          for (const ev of flushToolCalls()) yield ev;
           yield { type: "done", data: "" };
           return;
         }
@@ -238,6 +257,10 @@ export async function* cloudflareStreamChat(
           if (!choice) continue;
 
           const delta = choice.delta;
+          if (!delta && choice.finish_reason === "tool_calls") {
+            for (const ev of flushToolCalls()) yield ev;
+            continue;
+          }
 
           // Content chunk
           if (delta?.content) {
@@ -266,6 +289,8 @@ export async function* cloudflareStreamChat(
     reader.releaseLock();
   }
 
+  // Stream closed without "[DONE]" — still deliver any accumulated tool calls.
+  for (const ev of flushToolCalls()) yield ev;
   yield { type: "done", data: "" };
 }
 

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { prisma } from "@/lib/db";
+import { prisma } from "@/lib/db-prisma";
 import { PageHeader } from "../../../components/page-header";
 import { PartForm } from "../../../components/part-form";
 import { Button } from "@/components/ui/button";

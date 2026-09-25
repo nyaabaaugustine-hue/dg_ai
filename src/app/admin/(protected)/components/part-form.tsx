@@ -1,6 +1,6 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
 import { createPart, updatePart } from "../actions";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -35,6 +35,7 @@ export type PartFormProps = {
 
 export function PartForm({ manufacturers, initial }: PartFormProps) {
   const action = initial ? updatePart : createPart;
+  const [active, setActive] = useState(initial ? initial.active : true);
   const [state, formAction, pending] = useActionState<{ error?: string } | null, FormData>(
     async (_prev, formData) => {
       try {
@@ -120,8 +121,9 @@ export function PartForm({ manufacturers, initial }: PartFormProps) {
         />
       </div>
       <div className="flex items-center gap-2">
-        <Switch id="active" name="active" defaultChecked={initial ? initial.active : true} />
+        <Switch id="active" checked={active} onCheckedChange={setActive} />
         <Label htmlFor="active">Active</Label>
+        <input type="hidden" name="active" value={active ? "on" : "off"} />
       </div>
       <div className="flex gap-2">
         <Button type="submit" disabled={pending}>

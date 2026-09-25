@@ -226,6 +226,9 @@ async function main() {
   const newCompats: Prisma.PartCompatibilityCreateManyInput[] = [];
   const partNormToId = new Map<string, string>();
   const seenItems = new Set<string>();
+  // First non-null qty wins per normalized part name (same physical part can be
+  // listed under several brands; we keep the earliest sheet entry's count).
+  const stockByKey = new Map<string, number>();
 
   for (const it of all) {
     const key = normalizeName(it.name);
@@ -233,6 +236,7 @@ async function main() {
     const itemKey = `${key}|${it.brand.toLowerCase()}|${it.grade}`;
     if (seenItems.has(itemKey)) continue;
     seenItems.add(itemKey);
+    if (it.qty != null && it.qty > 0 && !stockByKey.has(key)) stockByKey.set(key, it.qty);
 
     const part = partByNorm.get(key);
     if (!part) {
@@ -243,6 +247,7 @@ async function main() {
           category: it.category,
           partNumber: it.partNumber,
           manufacturerId: it.vehicle === "TVS" ? tvsId : bajajId,
+          stockQty: it.qty ?? null,
           active: true,
         };
         newParts.push(np);
@@ -322,6 +327,26 @@ async function main() {
   const createdPrices = await prisma.partPrice.createMany({ data: newPrices, skipDuplicates: true });
   const createdCompat = await prisma.partCompatibility.createMany({ data: newCompats, skipDuplicates: true });
 
+  // Fill missing stock quantities from the price lists. Only parts whose
+  // stockQty is still NULL are touched, so manual corrections made in the
+  // admin dashboard are never overwritten by a re-import.
+  let filledStock = 0;
+  const partIdsByQty = new Map<number, string[]>();
+  for (const [key, qty] of stockByKey) {
+    const pid = partByNorm.get(key)?.id ?? partNormToId.get(key);
+    if (!pid || pid.startsWith("pending-")) continue;
+    const list = partIdsByQty.get(qty) ?? [];
+    list.push(pid);
+    partIdsByQty.set(qty, list);
+  }
+  for (const [qty, ids] of partIdsByQty) {
+    const res = await prisma.part.updateMany({
+      where: { id: { in: ids }, stockQty: null },
+      data: { stockQty: qty },
+    });
+    filledStock += res.count;
+  }
+
   console.log(
     JSON.stringify(
       {
@@ -330,6 +355,8 @@ async function main() {
         deactivatedPrices: deactivatedPrices.count,
         createdPrices: createdPrices.count,
         createdCompat: createdCompat.count,
+        stockKnownInSheets: stockByKey.size,
+        stockFilled: filledStock,
       },
       null,
       2,

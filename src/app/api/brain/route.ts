@@ -14,7 +14,6 @@ import {
   type CloudflareTool,
 } from "@/lib/cloudflare";
 
-export const runtime = "nodejs";
 export const maxDuration = 30;
 
 export async function GET() {
@@ -63,7 +62,6 @@ Be concise, helpful, and professional. Currency is GH₵ (Ghana Cedi).`;
     { role: "user", content: userMessage },
   ];
 
-  // Example tools for the brain
   const exampleTools: CloudflareTool[] | undefined = body.tools
     ? [
         {
@@ -121,4 +119,14 @@ Be concise, helpful, and professional. Currency is GH₵ (Ghana Cedi).`;
     console.error("Cloudflare brain error:", message);
     return Response.json({ error: message }, { status: 502 });
   }
+}
+
+export async function OPTIONS() {
+  return new Response(null, {
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+    },
+  });
 }

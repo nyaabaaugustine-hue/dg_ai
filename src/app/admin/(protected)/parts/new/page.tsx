@@ -1,4 +1,4 @@
-import { prisma } from "@/lib/db";
+import { prisma } from "@/lib/db-prisma";
 import { PageHeader } from "../../components/page-header";
 import { PartForm } from "../../components/part-form";
 

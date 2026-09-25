@@ -2,7 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { z } from "zod";
-import { prisma } from "@/lib/db";
+import { prisma } from "@/lib/db-prisma";
 
 // ---------------------------------------------------------------------------
 // Parts

@@ -1,0 +1,13 @@
+name = "pragya-ai"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+main = ".open-next/worker.js"
+assets = { directory = ".open-next/assets", binding = "ASSETS" }
+
+[vars]
+NODE_ENV = "production"
+
+# Sessions - KV (for auth)
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "43ace15b3c6c4f24a210e0cc17f3ec33"

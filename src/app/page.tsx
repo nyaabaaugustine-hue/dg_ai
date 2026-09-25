@@ -67,7 +67,7 @@ export default function Home() {
           <code className="rounded bg-black/5 px-1">{TOOL_LIST.join("  ·  ")}</code>
         </p>
       </div>
-      <Chat />
+      <Chat className="h-[calc(100vh-8rem)]" />
     </main>
   );
 }
